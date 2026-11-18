@@ -1,0 +1,6 @@
+path: D:/mca_demo/mca/weed_project_combined/FINAL_3064
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: weed
