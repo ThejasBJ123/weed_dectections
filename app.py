@@ -256,13 +256,22 @@ n1, n2, n3, n4, n5, n6 = st.columns(6)
 with n1:
     st.markdown("""
     <div class="nav-card">
+        <h4>📷 AI Detection</h4>
+        <p style="font-size: 0.85rem; color: #666;">Upload crop photos & run YOLOv8 object detection model.</p>
+        <a href="Image_Detection" target="_self" style="font-size: 0.85rem; font-weight: 600; color: #2e7d32;">Open Module →</a>
+    </div>
+    """, unsafe_allow_html=True)
+
+with n2:
+    st.markdown("""
+    <div class="nav-card">
         <h4>📊 Crop Analysis</h4>
         <p style="font-size: 0.85rem; color: #666;">In-depth crop-wise density, growth stage impact & yield loss.</p>
         <a href="Crop_Analysis" target="_self" style="font-size: 0.85rem; font-weight: 600; color: #2e7d32;">Open Module →</a>
     </div>
     """, unsafe_allow_html=True)
 
-with n2:
+with n3:
     st.markdown("""
     <div class="nav-card">
         <h4>🌿 Weed Comparison</h4>
@@ -271,7 +280,7 @@ with n2:
     </div>
     """, unsafe_allow_html=True)
 
-with n3:
+with n4:
     st.markdown("""
     <div class="nav-card">
         <h4>⚠️ Infestation Risk</h4>
@@ -280,21 +289,12 @@ with n3:
     </div>
     """, unsafe_allow_html=True)
 
-with n4:
+with n5:
     st.markdown("""
     <div class="nav-card">
         <h4>📉 Yield Loss</h4>
         <p style="font-size: 0.85rem; color: #666;">Empirical yield loss regressions & treatment efficacy checks.</p>
         <a href="Yield_Analysis" target="_self" style="font-size: 0.85rem; font-weight: 600; color: #2e7d32;">Open Module →</a>
-    </div>
-    """, unsafe_allow_html=True)
-
-with n5:
-    st.markdown("""
-    <div class="nav-card">
-        <h4>📷 AI Detection</h4>
-        <p style="font-size: 0.85rem; color: #666;">Upload crop photos & run YOLOv8 object detection model.</p>
-        <a href="Image_Detection" target="_self" style="font-size: 0.85rem; font-weight: 600; color: #2e7d32;">Open Module →</a>
     </div>
     """, unsafe_allow_html=True)
 

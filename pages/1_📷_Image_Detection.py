@@ -62,18 +62,49 @@ st.caption("Choose image source:")
 
 image_source = st.radio(
     "Choose image source:",
-    ["📤 Upload Image", "📂 Choose from 200 Test Images (>85% Acc)", "📸 Take Photo"],
+    [
+        "📤 Upload Image",
+        "🔥 200 Weed Images (>85% Acc)",
+        "🌾 Clean Field Images (0 Weeds)",
+        "📸 Take Photo"
+    ],
     horizontal=True,
     label_visibility="collapsed",
     index=0
 )
+
+# Test Image Collections Download helper
+with st.expander("📦 Download Pre-packaged Test Datasets (Zip Files)", expanded=False):
+    z_col1, z_col2 = st.columns(2)
+    zip_200_path = os.path.join(os.getcwd(), 'high_accuracy_test_images_200.zip')
+    zip_clean_path = os.path.join(os.getcwd(), 'no_weed_test_images.zip')
+    with z_col1:
+        if os.path.exists(zip_200_path):
+            with open(zip_200_path, 'rb') as f:
+                st.download_button(
+                    "💾 Download 200 Weed Images (>85% Acc) (.zip)",
+                    data=f.read(),
+                    file_name="high_accuracy_test_images_200.zip",
+                    mime="application/zip",
+                    use_container_width=True
+                )
+    with z_col2:
+        if os.path.exists(zip_clean_path):
+            with open(zip_clean_path, 'rb') as f:
+                st.download_button(
+                    "💾 Download Clean Field Images (0 Weeds) (.zip)",
+                    data=f.read(),
+                    file_name="no_weed_test_images.zip",
+                    mime="application/zip",
+                    use_container_width=True
+                )
 
 selected_image_input = None
 sample_name = ""
 
 if image_source == "📤 Upload Image":
     st.markdown("##### Browse an image from your phone or computer")
-    st.caption("Tip: Select any image from the `high_accuracy_test_images_200/` directory for guaranteed > 85% accuracy.")
+    st.caption("Tip: Upload your own field photo, or select any image from `high_accuracy_test_images_200/` or `no_weed_test_images/`.")
     uploaded_file = st.file_uploader(
         "Upload Image (JPG, JPEG, PNG • Up to 200MB)",
         type=['jpg', 'jpeg', 'png'],
@@ -83,14 +114,14 @@ if image_source == "📤 Upload Image":
         selected_image_input = Image.open(uploaded_file)
         sample_name = uploaded_file.name
 
-elif image_source == "📂 Choose from 200 Test Images (>85% Acc)":
+elif image_source == "🔥 200 Weed Images (>85% Acc)":
     test_200_dir = os.path.join(os.getcwd(), 'high_accuracy_test_images_200')
     if os.path.exists(test_200_dir):
         display_files = sorted([f for f in os.listdir(test_200_dir) if f.endswith('.jpg')])
         st.success(f"🎯 Showing {len(display_files)} test images verified with **> 85% weed detection accuracy** (Average: **87.0%**, Peak: **91.9%**).")
         
         chosen_sample = st.selectbox(
-            "Select one of the 200 verified high-accuracy test images to analyze:",
+            "Select one of the 200 verified high-accuracy weed images to analyze:",
             display_files,
             index=0
         )
@@ -99,6 +130,23 @@ elif image_source == "📂 Choose from 200 Test Images (>85% Acc)":
         sample_name = chosen_sample
     else:
         st.warning("⚠️ High accuracy test images folder not found.")
+
+elif image_source == "🌾 Clean Field Images (0 Weeds)":
+    no_weed_dir = os.path.join(os.getcwd(), 'no_weed_test_images')
+    if os.path.exists(no_weed_dir):
+        display_files = sorted([f for f in os.listdir(no_weed_dir) if f.endswith('.jpg')])
+        st.info(f"🌾 Showing {len(display_files)} verified clean crop field images with **0 weeds detected**.")
+        
+        chosen_sample = st.selectbox(
+            "Select one of the verified clean (no-weed) field images to test:",
+            display_files,
+            index=0
+        )
+        sample_path = os.path.join(no_weed_dir, chosen_sample)
+        selected_image_input = Image.open(sample_path)
+        sample_name = chosen_sample
+    else:
+        st.warning("⚠️ Clean test images folder not found.")
 
 elif image_source == "📸 Take Photo":
     st.markdown("##### Capture an image directly using your camera:")
