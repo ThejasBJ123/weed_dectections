@@ -1,0 +1,26 @@
+record_id,observation_date,crop,field_id,crop_growth_stage,weed_type,weed_count_per_m2,infestation_level,estimated_area_affected_pct,treatment_applied,estimated_yield_loss_pct,model_detection_confidence
+TEST-001,2026-06-10,Rice (Paddy),FLD-01,Seedling,Barnyard Grass (Echinochloa crus-galli),34,High,48.5,No treatment,28.2,0.92
+TEST-002,2026-06-12,Rice (Paddy),FLD-01,Vegetative,Cyperus rotundus (Nutgrass),18,Medium,26.0,Manual weeding,15.4,0.89
+TEST-003,2026-06-15,Maize,FLD-03,Vegetative,Parthenium hysterophorus,28,Medium,38.2,No treatment,22.1,0.94
+TEST-004,2026-06-18,Maize,FLD-03,Flowering,Bermuda Grass (Cynodon dactylon),10,Low,14.5,Herbicide,7.8,0.88
+TEST-005,2026-06-20,Cotton,FLD-07,Seedling,Broadleaf Weeds (Amaranthus),42,High,58.0,No treatment,35.6,0.96
+TEST-006,2026-06-22,Cotton,FLD-07,Vegetative,Parthenium hysterophorus,16,Medium,22.4,Mechanical weeding,13.2,0.91
+TEST-007,2026-06-25,Ragi (Finger millet),FLD-05,Seedling,Cyperus rotundus (Nutgrass),24,Medium,32.0,No treatment,19.5,0.87
+TEST-008,2026-06-28,Ragi (Finger millet),FLD-05,Vegetative,Barnyard Grass (Echinochloa crus-galli),8,Low,11.2,Manual weeding,6.4,0.85
+TEST-009,2026-07-02,Sugarcane,FLD-09,Vegetative,Bermuda Grass (Cynodon dactylon),38,High,51.5,No treatment,26.8,0.93
+TEST-010,2026-07-05,Sugarcane,FLD-09,Flowering,Broadleaf Weeds (Amaranthus),12,Medium,18.0,Herbicide,9.5,0.90
+TEST-011,2026-07-08,Rice (Paddy),FLD-02,Seedling,Barnyard Grass (Echinochloa crus-galli),45,High,62.0,No treatment,36.4,0.95
+TEST-012,2026-07-10,Rice (Paddy),FLD-02,Vegetative,False Daisy (Eclipta prostrata),7,Low,9.8,Herbicide,5.2,0.86
+TEST-013,2026-07-14,Maize,FLD-04,Seedling,Parthenium hysterophorus,36,High,49.2,No treatment,29.8,0.94
+TEST-014,2026-07-16,Maize,FLD-04,Vegetative,Nutgrass (Cyperus rotundus),14,Medium,20.5,Mechanical weeding,11.4,0.89
+TEST-015,2026-07-20,Cotton,FLD-08,Seedling,Broadleaf Weeds (Amaranthus),39,High,54.1,No treatment,33.0,0.93
+TEST-016,2026-07-22,Cotton,FLD-08,Flowering,Bermuda Grass (Cynodon dactylon),11,Low,15.2,Herbicide,8.1,0.87
+TEST-017,2026-07-25,Ragi (Finger millet),FLD-06,Vegetative,Barnyard Grass (Echinochloa crus-galli),22,Medium,30.4,Manual weeding,16.8,0.90
+TEST-018,2026-07-28,Ragi (Finger millet),FLD-06,Maturity,Broadleaf Weeds (Amaranthus),6,Low,8.5,Mechanical weeding,3.9,0.84
+TEST-019,2026-08-02,Sugarcane,FLD-10,Seedling,Cyperus rotundus (Nutgrass),44,High,60.5,No treatment,34.2,0.97
+TEST-020,2026-08-05,Sugarcane,FLD-10,Vegetative,Parthenium hysterophorus,19,Medium,27.1,Manual weeding,14.5,0.91
+TEST-021,2026-08-10,Rice (Paddy),FLD-01,Flowering,Barnyard Grass (Echinochloa crus-galli),15,Medium,21.0,Manual weeding,11.2,0.89
+TEST-022,2026-08-14,Maize,FLD-03,Maturity,Parthenium hysterophorus,9,Low,12.0,Herbicide,5.8,0.88
+TEST-023,2026-08-18,Cotton,FLD-07,Flowering,Broadleaf Weeds (Amaranthus),25,Medium,34.5,Manual weeding,18.9,0.92
+TEST-024,2026-08-22,Ragi (Finger millet),FLD-05,Flowering,Cyperus rotundus (Nutgrass),13,Medium,17.8,Herbicide,9.1,0.86
+TEST-025,2026-08-26,Sugarcane,FLD-09,Maturity,Bermuda Grass (Cynodon dactylon),10,Low,13.4,Mechanical weeding,6.2,0.85

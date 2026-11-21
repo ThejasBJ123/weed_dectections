@@ -1,0 +1,501 @@
+record_id,observation_date,crop,field_id,crop_growth_stage,weed_type,weed_count_per_m2,infestation_level,estimated_area_affected_pct,treatment_applied,estimated_yield_loss_pct,model_detection_confidence
+REC-059,2026-01-06,Rice (Paddy),FLD-02,Maturity,Parthenium (Parthenium hysterophorus),33,High,46.6,No treatment,15.1,0.92
+REC-402,2026-01-06,Cotton,FLD-09,Vegetative,False Daisy (Eclipta prostrata),12,Medium,17.3,Manual weeding,8.4,0.97
+REC-023,2026-01-06,Rice (Paddy),FLD-05,Maturity,Nutgrass (Cyperus rotundus),13,Medium,23.1,Mechanical weeding,4.6,0.94
+REC-454,2026-01-07,Cotton,FLD-06,Flowering,Barnyard Grass (Echinochloa crus-galli),50,High,74.2,No treatment,25.9,0.85
+REC-086,2026-01-07,Cotton,FLD-08,Maturity,Nutgrass (Cyperus rotundus),9,Low,16.9,Manual weeding,3.5,0.86
+REC-229,2026-01-08,Maize,FLD-05,Flowering,Parthenium (Parthenium hysterophorus),11,Low,23.6,Herbicide,5.6,0.9
+REC-420,2026-01-12,Maize,FLD-08,Vegetative,Parthenium (Parthenium hysterophorus),16,Medium,30.2,Herbicide,12.7,0.87
+REC-445,2026-01-13,Ragi (Finger millet),FLD-15,Seedling,Nutgrass (Cyperus rotundus),6,Low,12.0,Herbicide,3.9,0.86
+REC-210,2026-01-13,Maize,FLD-01,Flowering,Nutgrass (Cyperus rotundus),17,Medium,24.0,Herbicide,10.7,0.88
+REC-205,2026-01-15,Maize,FLD-02,Maturity,Barnyard Grass (Echinochloa crus-galli),18,Medium,31.0,Manual weeding,6.3,0.94
+REC-482,2026-01-16,Ragi (Finger millet),FLD-02,Flowering,Barnyard Grass (Echinochloa crus-galli),55,High,75.5,No treatment,24.4,0.88
+REC-209,2026-01-18,Maize,FLD-03,Flowering,Nutgrass (Cyperus rotundus),21,Medium,30.0,No treatment,11.0,0.9
+REC-148,2026-01-18,Cotton,FLD-12,Flowering,Broadleaf Weeds (Amaranthus spp.),14,Medium,20.3,Herbicide,7.5,0.87
+REC-228,2026-01-19,Sugarcane,FLD-13,Seedling,Broadleaf Weeds (Amaranthus spp.),13,Medium,28.0,Herbicide,9.5,0.9
+REC-328,2026-01-19,Sugarcane,FLD-12,Flowering,Broadleaf Weeds (Amaranthus spp.),44,High,64.8,No treatment,23.1,0.93
+REC-305,2026-01-20,Rice (Paddy),FLD-02,Maturity,Parthenium (Parthenium hysterophorus),10,Low,18.3,Manual weeding,1.9,0.99
+REC-355,2026-01-21,Maize,FLD-09,Maturity,Nutgrass (Cyperus rotundus),16,Medium,26.4,Manual weeding,8.2,0.92
+REC-405,2026-01-21,Maize,FLD-05,Vegetative,False Daisy (Eclipta prostrata),36,High,50.3,No treatment,23.8,0.95
+REC-002,2026-01-21,Rice (Paddy),FLD-11,Seedling,Broadleaf Weeds (Amaranthus spp.),15,Medium,23.5,Mechanical weeding,14.5,0.93
+REC-188,2026-01-22,Rice (Paddy),FLD-15,Seedling,Parthenium (Parthenium hysterophorus),12,Medium,16.0,Mechanical weeding,7.6,0.82
+REC-254,2026-01-24,Sugarcane,FLD-02,Flowering,Bermuda Grass (Cynodon dactylon),36,High,50.5,Mechanical weeding,22.1,0.9
+REC-149,2026-01-25,Rice (Paddy),FLD-04,Seedling,False Daisy (Eclipta prostrata),12,Medium,21.2,Herbicide,11.2,0.86
+REC-258,2026-01-25,Ragi (Finger millet),FLD-12,Seedling,Broadleaf Weeds (Amaranthus spp.),20,Medium,27.9,Manual weeding,15.0,0.81
+REC-147,2026-01-25,Sugarcane,FLD-09,Maturity,Bermuda Grass (Cynodon dactylon),35,High,52.0,No treatment,11.1,0.85
+REC-106,2026-01-25,Rice (Paddy),FLD-06,Vegetative,False Daisy (Eclipta prostrata),55,High,83.5,No treatment,37.1,0.94
+REC-063,2026-01-26,Sugarcane,FLD-09,Vegetative,Bermuda Grass (Cynodon dactylon),30,High,45.7,Manual weeding,18.2,0.94
+REC-289,2026-01-27,Ragi (Finger millet),FLD-02,Seedling,Bermuda Grass (Cynodon dactylon),12,Medium,16.2,Mechanical weeding,12.3,0.94
+REC-270,2026-01-27,Sugarcane,FLD-13,Vegetative,False Daisy (Eclipta prostrata),4,Low,8.1,Mechanical weeding,5.4,0.93
+REC-213,2026-01-27,Sugarcane,FLD-10,Seedling,Bermuda Grass (Cynodon dactylon),10,Low,15.9,Manual weeding,6.6,0.86
+REC-007,2026-01-27,Cotton,FLD-02,Flowering,Parthenium (Parthenium hysterophorus),7,Low,13.8,Herbicide,1.6,0.91
+REC-084,2026-01-28,Maize,FLD-13,Vegetative,Nutgrass (Cyperus rotundus),33,High,46.5,No treatment,24.3,0.88
+REC-347,2026-01-28,Maize,FLD-10,Maturity,Broadleaf Weeds (Amaranthus spp.),41,High,60.2,No treatment,16.3,0.97
+REC-198,2026-01-28,Ragi (Finger millet),FLD-11,Maturity,Barnyard Grass (Echinochloa crus-galli),15,Medium,19.3,Manual weeding,5.9,0.9
+REC-369,2026-01-31,Rice (Paddy),FLD-11,Vegetative,False Daisy (Eclipta prostrata),14,Medium,22.9,Manual weeding,8.1,0.92
+REC-130,2026-02-01,Rice (Paddy),FLD-12,Vegetative,Parthenium (Parthenium hysterophorus),38,High,52.4,No treatment,26.1,0.93
+REC-497,2026-02-01,Ragi (Finger millet),FLD-03,Vegetative,Parthenium (Parthenium hysterophorus),26,Medium,40.6,Mechanical weeding,19.0,0.92
+REC-408,2026-02-02,Rice (Paddy),FLD-07,Maturity,Nutgrass (Cyperus rotundus),16,Medium,28.2,Manual weeding,6.3,0.85
+REC-441,2026-02-02,Cotton,FLD-07,Maturity,Broadleaf Weeds (Amaranthus spp.),32,High,49.4,Mechanical weeding,11.0,0.81
+REC-046,2026-02-03,Maize,FLD-01,Seedling,False Daisy (Eclipta prostrata),13,Medium,19.0,Herbicide,8.1,0.91
+REC-047,2026-02-03,Rice (Paddy),FLD-10,Maturity,Broadleaf Weeds (Amaranthus spp.),14,Medium,25.0,Manual weeding,5.6,0.89
+REC-027,2026-02-03,Rice (Paddy),FLD-02,Flowering,Parthenium (Parthenium hysterophorus),14,Medium,24.1,Manual weeding,10.8,0.9
+REC-043,2026-02-04,Cotton,FLD-08,Maturity,Nutgrass (Cyperus rotundus),15,Medium,22.0,Mechanical weeding,3.5,0.85
+REC-372,2026-02-04,Maize,FLD-13,Flowering,Parthenium (Parthenium hysterophorus),11,Low,21.6,Herbicide,3.2,0.8
+REC-033,2026-02-04,Maize,FLD-10,Vegetative,Barnyard Grass (Echinochloa crus-galli),34,High,48.4,No treatment,20.4,0.89
+REC-038,2026-02-05,Cotton,FLD-14,Seedling,False Daisy (Eclipta prostrata),38,High,56.2,No treatment,29.9,0.91
+REC-390,2026-02-05,Cotton,FLD-09,Flowering,Barnyard Grass (Echinochloa crus-galli),43,High,59.6,No treatment,25.3,0.88
+REC-214,2026-02-05,Sugarcane,FLD-05,Maturity,False Daisy (Eclipta prostrata),25,Medium,41.3,No treatment,11.1,0.86
+REC-020,2026-02-06,Maize,FLD-11,Vegetative,False Daisy (Eclipta prostrata),18,Medium,27.4,Mechanical weeding,12.4,0.79
+REC-216,2026-02-07,Cotton,FLD-02,Seedling,Parthenium (Parthenium hysterophorus),17,Medium,22.4,Manual weeding,16.0,0.98
+REC-252,2026-02-08,Sugarcane,FLD-06,Flowering,Nutgrass (Cyperus rotundus),24,Medium,37.6,Mechanical weeding,14.3,0.92
+REC-306,2026-02-08,Maize,FLD-14,Maturity,Barnyard Grass (Echinochloa crus-galli),6,Low,13.0,Manual weeding,3.2,0.91
+REC-406,2026-02-08,Cotton,FLD-10,Seedling,Nutgrass (Cyperus rotundus),16,Medium,21.3,Manual weeding,14.1,0.86
+REC-009,2026-02-09,Ragi (Finger millet),FLD-14,Flowering,Broadleaf Weeds (Amaranthus spp.),15,Medium,21.1,Manual weeding,9.4,0.83
+REC-028,2026-02-09,Maize,FLD-15,Seedling,Barnyard Grass (Echinochloa crus-galli),20,Medium,30.8,Mechanical weeding,12.0,0.89
+REC-230,2026-02-09,Maize,FLD-14,Vegetative,Broadleaf Weeds (Amaranthus spp.),23,Medium,35.6,Mechanical weeding,14.9,0.9
+REC-012,2026-02-10,Ragi (Finger millet),FLD-06,Vegetative,False Daisy (Eclipta prostrata),2,Low,4.5,Herbicide,1.2,0.94
+REC-241,2026-02-10,Sugarcane,FLD-12,Vegetative,Broadleaf Weeds (Amaranthus spp.),13,Medium,25.5,Herbicide,9.2,0.93
+REC-144,2026-02-10,Maize,FLD-11,Vegetative,Parthenium (Parthenium hysterophorus),18,Medium,27.6,Manual weeding,13.8,0.78
+REC-396,2026-02-11,Ragi (Finger millet),FLD-14,Seedling,False Daisy (Eclipta prostrata),17,Medium,30.4,Manual weeding,11.3,0.89
+REC-331,2026-02-11,Cotton,FLD-04,Maturity,Parthenium (Parthenium hysterophorus),18,Medium,29.9,Mechanical weeding,6.0,0.91
+REC-192,2026-02-12,Ragi (Finger millet),FLD-12,Flowering,Barnyard Grass (Echinochloa crus-galli),28,Medium,39.7,Mechanical weeding,14.7,0.98
+REC-449,2026-02-12,Ragi (Finger millet),FLD-01,Seedling,Bermuda Grass (Cynodon dactylon),14,Medium,24.9,Manual weeding,11.2,0.85
+REC-444,2026-02-12,Maize,FLD-15,Maturity,Parthenium (Parthenium hysterophorus),26,Medium,39.7,No treatment,7.5,0.82
+REC-431,2026-02-12,Cotton,FLD-03,Seedling,Broadleaf Weeds (Amaranthus spp.),38,High,54.5,No treatment,30.8,0.92
+REC-092,2026-02-13,Cotton,FLD-11,Vegetative,Parthenium (Parthenium hysterophorus),24,Medium,35.2,Mechanical weeding,16.8,0.89
+REC-446,2026-02-13,Maize,FLD-10,Vegetative,False Daisy (Eclipta prostrata),5,Low,10.5,Mechanical weeding,1.2,0.93
+REC-300,2026-02-14,Sugarcane,FLD-05,Seedling,False Daisy (Eclipta prostrata),17,Medium,28.6,Mechanical weeding,13.6,0.96
+REC-049,2026-02-15,Cotton,FLD-02,Vegetative,Broadleaf Weeds (Amaranthus spp.),35,High,47.5,No treatment,24.2,0.91
+REC-458,2026-02-17,Cotton,FLD-01,Flowering,Bermuda Grass (Cynodon dactylon),17,Medium,27.0,Mechanical weeding,10.2,0.9
+REC-082,2026-02-17,Maize,FLD-09,Maturity,False Daisy (Eclipta prostrata),7,Low,9.8,Manual weeding,4.5,0.93
+REC-116,2026-02-18,Cotton,FLD-14,Flowering,Parthenium (Parthenium hysterophorus),31,High,46.0,Manual weeding,15.1,0.9
+REC-314,2026-02-18,Rice (Paddy),FLD-08,Vegetative,False Daisy (Eclipta prostrata),4,Low,10.5,Mechanical weeding,4.9,0.83
+REC-159,2026-02-21,Maize,FLD-05,Seedling,Broadleaf Weeds (Amaranthus spp.),16,Medium,24.3,Mechanical weeding,10.6,0.81
+REC-006,2026-02-21,Ragi (Finger millet),FLD-03,Vegetative,Parthenium (Parthenium hysterophorus),49,High,69.5,No treatment,33.5,0.82
+REC-417,2026-02-21,Maize,FLD-06,Seedling,Bermuda Grass (Cynodon dactylon),16,Medium,25.5,Herbicide,10.6,0.86
+REC-440,2026-02-21,Ragi (Finger millet),FLD-11,Seedling,False Daisy (Eclipta prostrata),31,High,48.7,No treatment,26.9,0.96
+REC-261,2026-02-22,Sugarcane,FLD-01,Flowering,Barnyard Grass (Echinochloa crus-galli),18,Medium,26.9,Herbicide,11.4,0.89
+REC-222,2026-02-23,Rice (Paddy),FLD-02,Seedling,Barnyard Grass (Echinochloa crus-galli),24,Medium,41.9,Mechanical weeding,19.7,0.87
+REC-170,2026-02-25,Sugarcane,FLD-10,Flowering,Barnyard Grass (Echinochloa crus-galli),8,Low,20.1,Mechanical weeding,5.9,0.95
+REC-175,2026-02-25,Ragi (Finger millet),FLD-04,Seedling,Bermuda Grass (Cynodon dactylon),36,High,48.8,No treatment,29.6,0.88
+REC-128,2026-02-25,Maize,FLD-12,Maturity,Parthenium (Parthenium hysterophorus),10,Low,15.0,Herbicide,3.9,0.89
+REC-370,2026-02-25,Rice (Paddy),FLD-07,Flowering,False Daisy (Eclipta prostrata),16,Medium,26.9,Mechanical weeding,6.8,0.87
+REC-456,2026-02-26,Rice (Paddy),FLD-03,Maturity,Bermuda Grass (Cynodon dactylon),16,Medium,25.8,Mechanical weeding,5.1,0.86
+REC-257,2026-02-26,Sugarcane,FLD-08,Vegetative,Barnyard Grass (Echinochloa crus-galli),33,High,49.9,Mechanical weeding,22.6,0.9
+REC-131,2026-02-26,Sugarcane,FLD-05,Vegetative,False Daisy (Eclipta prostrata),4,Low,11.0,Mechanical weeding,1.5,0.92
+REC-341,2026-03-01,Cotton,FLD-10,Maturity,Parthenium (Parthenium hysterophorus),32,High,48.9,No treatment,11.1,0.84
+REC-019,2026-03-02,Maize,FLD-03,Maturity,Barnyard Grass (Echinochloa crus-galli),32,High,51.9,No treatment,6.2,0.93
+REC-283,2026-03-02,Maize,FLD-14,Vegetative,Broadleaf Weeds (Amaranthus spp.),17,Medium,27.9,Mechanical weeding,12.2,0.91
+REC-061,2026-03-03,Cotton,FLD-09,Maturity,Broadleaf Weeds (Amaranthus spp.),24,Medium,36.1,No treatment,9.1,0.93
+REC-489,2026-03-04,Maize,FLD-06,Flowering,Nutgrass (Cyperus rotundus),9,Low,14.2,Mechanical weeding,3.7,0.96
+REC-133,2026-03-04,Ragi (Finger millet),FLD-03,Seedling,Parthenium (Parthenium hysterophorus),20,Medium,28.3,Mechanical weeding,16.6,0.81
+REC-468,2026-03-04,Ragi (Finger millet),FLD-07,Flowering,Bermuda Grass (Cynodon dactylon),4,Low,8.2,Herbicide,1.2,0.88
+REC-056,2026-03-05,Ragi (Finger millet),FLD-15,Seedling,Nutgrass (Cyperus rotundus),21,Medium,26.7,Herbicide,17.5,0.81
+REC-135,2026-03-06,Maize,FLD-13,Flowering,Barnyard Grass (Echinochloa crus-galli),9,Low,15.0,Manual weeding,6.6,0.86
+REC-239,2026-03-07,Maize,FLD-13,Flowering,Parthenium (Parthenium hysterophorus),3,Low,12.4,Herbicide,1.4,0.95
+REC-126,2026-03-07,Cotton,FLD-05,Flowering,Parthenium (Parthenium hysterophorus),23,Medium,40.8,Manual weeding,9.6,0.92
+REC-111,2026-03-07,Maize,FLD-02,Vegetative,Barnyard Grass (Echinochloa crus-galli),11,Low,18.8,Herbicide,3.8,0.89
+REC-031,2026-03-07,Cotton,FLD-11,Flowering,Bermuda Grass (Cynodon dactylon),25,Medium,35.0,Mechanical weeding,15.7,0.82
+REC-076,2026-03-09,Cotton,FLD-02,Flowering,Broadleaf Weeds (Amaranthus spp.),5,Low,9.1,Herbicide,4.0,0.92
+REC-169,2026-03-10,Cotton,FLD-07,Vegetative,Bermuda Grass (Cynodon dactylon),29,Medium,42.0,No treatment,17.2,0.85
+REC-320,2026-03-10,Cotton,FLD-09,Maturity,Bermuda Grass (Cynodon dactylon),58,High,83.5,No treatment,20.1,0.87
+REC-455,2026-03-13,Ragi (Finger millet),FLD-08,Flowering,Parthenium (Parthenium hysterophorus),9,Low,14.0,No treatment,4.4,0.84
+REC-393,2026-03-13,Rice (Paddy),FLD-15,Maturity,Barnyard Grass (Echinochloa crus-galli),4,Low,7.8,Mechanical weeding,2.8,0.83
+REC-053,2026-03-13,Rice (Paddy),FLD-02,Vegetative,Broadleaf Weeds (Amaranthus spp.),12,Medium,31.8,Herbicide,9.2,0.95
+REC-492,2026-03-14,Sugarcane,FLD-03,Flowering,Broadleaf Weeds (Amaranthus spp.),39,High,56.9,No treatment,20.2,0.88
+REC-088,2026-03-14,Cotton,FLD-01,Vegetative,Barnyard Grass (Echinochloa crus-galli),11,Low,18.2,Mechanical weeding,8.1,0.96
+REC-463,2026-03-15,Cotton,FLD-10,Vegetative,Bermuda Grass (Cynodon dactylon),43,High,63.3,No treatment,28.2,0.98
+REC-313,2026-03-15,Sugarcane,FLD-05,Maturity,Nutgrass (Cyperus rotundus),35,High,46.6,No treatment,12.5,0.93
+REC-293,2026-03-15,Cotton,FLD-12,Maturity,False Daisy (Eclipta prostrata),20,Medium,33.6,Manual weeding,8.2,0.9
+REC-102,2026-03-15,Sugarcane,FLD-10,Seedling,Barnyard Grass (Echinochloa crus-galli),13,Medium,23.4,Mechanical weeding,8.2,0.88
+REC-267,2026-03-16,Ragi (Finger millet),FLD-13,Maturity,Nutgrass (Cyperus rotundus),13,Medium,18.2,Manual weeding,2.1,0.95
+REC-187,2026-03-16,Maize,FLD-11,Vegetative,Broadleaf Weeds (Amaranthus spp.),12,Medium,18.0,Herbicide,8.5,0.85
+REC-358,2026-03-16,Sugarcane,FLD-13,Maturity,False Daisy (Eclipta prostrata),30,High,43.7,No treatment,10.8,0.93
+REC-274,2026-03-16,Sugarcane,FLD-09,Maturity,Nutgrass (Cyperus rotundus),21,Medium,32.5,Manual weeding,8.5,0.89
+REC-001,2026-03-17,Rice (Paddy),FLD-01,Flowering,Nutgrass (Cyperus rotundus),19,Medium,29.2,Manual weeding,11.2,0.97
+REC-479,2026-03-18,Rice (Paddy),FLD-05,Maturity,Barnyard Grass (Echinochloa crus-galli),40,High,59.5,No treatment,10.4,0.86
+REC-346,2026-03-19,Ragi (Finger millet),FLD-13,Flowering,Broadleaf Weeds (Amaranthus spp.),13,Medium,20.1,Herbicide,10.7,0.86
+REC-286,2026-03-19,Sugarcane,FLD-09,Seedling,False Daisy (Eclipta prostrata),13,Medium,25.7,Manual weeding,9.8,0.9
+REC-426,2026-03-20,Ragi (Finger millet),FLD-07,Seedling,Broadleaf Weeds (Amaranthus spp.),18,Medium,29.8,Manual weeding,15.1,0.95
+REC-280,2026-03-20,Maize,FLD-01,Flowering,Barnyard Grass (Echinochloa crus-galli),22,Medium,33.5,Herbicide,12.0,0.94
+REC-177,2026-03-20,Rice (Paddy),FLD-05,Flowering,Parthenium (Parthenium hysterophorus),4,Low,11.2,Mechanical weeding,1.2,0.98
+REC-262,2026-03-22,Sugarcane,FLD-11,Maturity,Parthenium (Parthenium hysterophorus),9,Low,18.8,Herbicide,4.2,0.81
+REC-348,2026-03-22,Rice (Paddy),FLD-03,Flowering,Bermuda Grass (Cynodon dactylon),18,Medium,26.0,Mechanical weeding,10.3,0.86
+REC-134,2026-03-23,Rice (Paddy),FLD-07,Maturity,Barnyard Grass (Echinochloa crus-galli),32,High,43.6,No treatment,9.7,0.89
+REC-453,2026-03-24,Rice (Paddy),FLD-02,Flowering,Nutgrass (Cyperus rotundus),4,Low,12.1,Mechanical weeding,1.2,0.9
+REC-160,2026-03-24,Maize,FLD-14,Seedling,Bermuda Grass (Cynodon dactylon),42,High,60.9,No treatment,30.2,0.83
+REC-471,2026-03-24,Cotton,FLD-03,Flowering,Nutgrass (Cyperus rotundus),14,Medium,27.7,Herbicide,5.2,0.86
+REC-250,2026-03-24,Rice (Paddy),FLD-03,Flowering,Nutgrass (Cyperus rotundus),30,High,46.4,Manual weeding,14.8,0.92
+REC-114,2026-03-24,Rice (Paddy),FLD-07,Flowering,False Daisy (Eclipta prostrata),9,Low,17.7,Mechanical weeding,3.8,0.85
+REC-094,2026-03-24,Rice (Paddy),FLD-03,Vegetative,Nutgrass (Cyperus rotundus),31,High,48.7,Mechanical weeding,25.0,0.85
+REC-233,2026-03-26,Ragi (Finger millet),FLD-13,Seedling,Barnyard Grass (Echinochloa crus-galli),28,Medium,41.6,Manual weeding,20.7,0.98
+REC-385,2026-03-27,Rice (Paddy),FLD-11,Seedling,Bermuda Grass (Cynodon dactylon),12,Medium,18.6,Herbicide,7.2,0.75
+REC-025,2026-03-28,Sugarcane,FLD-10,Vegetative,Nutgrass (Cyperus rotundus),11,Low,19.6,Herbicide,7.5,0.88
+REC-060,2026-03-28,Ragi (Finger millet),FLD-13,Vegetative,False Daisy (Eclipta prostrata),2,Low,7.3,Herbicide,1.2,0.93
+REC-011,2026-03-29,Rice (Paddy),FLD-07,Flowering,Bermuda Grass (Cynodon dactylon),13,Medium,22.1,Herbicide,6.6,0.87
+REC-013,2026-03-29,Sugarcane,FLD-11,Vegetative,Broadleaf Weeds (Amaranthus spp.),18,Medium,23.0,Manual weeding,12.9,0.87
+REC-349,2026-03-29,Sugarcane,FLD-15,Vegetative,Parthenium (Parthenium hysterophorus),20,Medium,31.4,Herbicide,13.0,0.9
+REC-109,2026-03-29,Ragi (Finger millet),FLD-13,Flowering,Nutgrass (Cyperus rotundus),30,High,46.7,No treatment,18.5,0.89
+REC-391,2026-03-30,Sugarcane,FLD-15,Vegetative,Broadleaf Weeds (Amaranthus spp.),15,Medium,22.0,Manual weeding,5.9,0.93
+REC-042,2026-03-31,Rice (Paddy),FLD-01,Seedling,Barnyard Grass (Echinochloa crus-galli),23,Medium,36.3,Manual weeding,19.3,0.98
+REC-327,2026-04-02,Rice (Paddy),FLD-09,Vegetative,Broadleaf Weeds (Amaranthus spp.),20,Medium,28.3,Manual weeding,13.7,0.89
+REC-178,2026-04-02,Maize,FLD-09,Maturity,Broadleaf Weeds (Amaranthus spp.),3,Low,13.1,Manual weeding,1.4,0.89
+REC-139,2026-04-03,Maize,FLD-05,Seedling,Nutgrass (Cyperus rotundus),25,Medium,38.5,Manual weeding,20.0,0.87
+REC-373,2026-04-04,Rice (Paddy),FLD-11,Vegetative,Broadleaf Weeds (Amaranthus spp.),16,Medium,29.4,No treatment,9.9,0.99
+REC-292,2026-04-04,Maize,FLD-01,Flowering,Broadleaf Weeds (Amaranthus spp.),15,Medium,31.6,Herbicide,10.4,0.92
+REC-466,2026-04-05,Ragi (Finger millet),FLD-10,Vegetative,Bermuda Grass (Cynodon dactylon),9,Low,18.6,Herbicide,7.6,0.8
+REC-066,2026-04-06,Maize,FLD-13,Vegetative,Bermuda Grass (Cynodon dactylon),22,Medium,33.5,No treatment,9.2,0.84
+REC-436,2026-04-06,Ragi (Finger millet),FLD-09,Flowering,Barnyard Grass (Echinochloa crus-galli),17,Medium,26.4,Mechanical weeding,9.1,0.95
+REC-269,2026-04-07,Sugarcane,FLD-03,Maturity,Nutgrass (Cyperus rotundus),16,Medium,21.8,Manual weeding,7.2,0.87
+REC-040,2026-04-08,Maize,FLD-09,Maturity,Nutgrass (Cyperus rotundus),34,High,51.3,Mechanical weeding,9.4,0.92
+REC-493,2026-04-08,Ragi (Finger millet),FLD-02,Vegetative,Parthenium (Parthenium hysterophorus),30,High,47.9,No treatment,21.5,0.74
+REC-381,2026-04-09,Sugarcane,FLD-06,Seedling,Bermuda Grass (Cynodon dactylon),46,High,67.8,No treatment,35.2,0.84
+REC-485,2026-04-10,Maize,FLD-13,Maturity,False Daisy (Eclipta prostrata),18,Medium,29.7,Manual weeding,8.1,0.89
+REC-296,2026-04-12,Sugarcane,FLD-07,Maturity,Parthenium (Parthenium hysterophorus),34,High,54.1,No treatment,13.2,0.81
+REC-036,2026-04-12,Sugarcane,FLD-08,Vegetative,Bermuda Grass (Cynodon dactylon),20,Medium,34.9,Mechanical weeding,10.7,0.9
+REC-337,2026-04-12,Maize,FLD-14,Vegetative,Parthenium (Parthenium hysterophorus),14,Medium,18.4,Herbicide,5.0,0.94
+REC-039,2026-04-13,Cotton,FLD-12,Flowering,Barnyard Grass (Echinochloa crus-galli),10,Low,18.2,Manual weeding,5.8,0.85
+REC-127,2026-04-13,Maize,FLD-06,Seedling,False Daisy (Eclipta prostrata),10,Low,16.0,Manual weeding,6.7,0.85
+REC-361,2026-04-13,Ragi (Finger millet),FLD-11,Flowering,Broadleaf Weeds (Amaranthus spp.),23,Medium,38.6,Mechanical weeding,12.4,0.83
+REC-078,2026-04-13,Cotton,FLD-12,Flowering,Broadleaf Weeds (Amaranthus spp.),20,Medium,30.4,Manual weeding,10.1,0.94
+REC-272,2026-04-14,Maize,FLD-09,Vegetative,Parthenium (Parthenium hysterophorus),21,Medium,33.6,Mechanical weeding,16.2,0.9
+REC-085,2026-04-14,Maize,FLD-08,Seedling,Bermuda Grass (Cynodon dactylon),10,Low,16.5,Mechanical weeding,8.5,0.86
+REC-325,2026-04-15,Sugarcane,FLD-15,Flowering,Barnyard Grass (Echinochloa crus-galli),14,Medium,22.0,Herbicide,7.9,0.91
+REC-427,2026-04-15,Rice (Paddy),FLD-05,Maturity,Parthenium (Parthenium hysterophorus),19,Medium,28.9,Manual weeding,7.7,0.98
+REC-294,2026-04-18,Rice (Paddy),FLD-12,Maturity,Barnyard Grass (Echinochloa crus-galli),10,Low,17.3,Herbicide,2.1,0.88
+REC-487,2026-04-20,Sugarcane,FLD-07,Maturity,Barnyard Grass (Echinochloa crus-galli),20,Medium,29.9,Manual weeding,7.5,0.89
+REC-138,2026-04-21,Sugarcane,FLD-10,Seedling,Broadleaf Weeds (Amaranthus spp.),37,High,52.1,No treatment,28.8,0.88
+REC-080,2026-04-22,Ragi (Finger millet),FLD-07,Seedling,Parthenium (Parthenium hysterophorus),13,Medium,20.6,Herbicide,10.7,0.88
+REC-057,2026-04-22,Rice (Paddy),FLD-12,Vegetative,Parthenium (Parthenium hysterophorus),7,Low,16.7,Herbicide,4.9,0.84
+REC-238,2026-04-23,Sugarcane,FLD-01,Seedling,Nutgrass (Cyperus rotundus),9,Low,16.9,Herbicide,6.5,0.91
+REC-266,2026-04-24,Ragi (Finger millet),FLD-01,Flowering,Parthenium (Parthenium hysterophorus),22,Medium,25.2,Manual weeding,13.7,0.8
+REC-312,2026-04-24,Rice (Paddy),FLD-05,Flowering,False Daisy (Eclipta prostrata),12,Medium,16.5,Mechanical weeding,6.4,0.85
+REC-235,2026-04-25,Cotton,FLD-10,Maturity,Bermuda Grass (Cynodon dactylon),4,Low,11.5,Herbicide,1.8,0.86
+REC-202,2026-04-26,Sugarcane,FLD-07,Flowering,Barnyard Grass (Echinochloa crus-galli),7,Low,12.5,Herbicide,4.1,0.87
+REC-500,2026-04-27,Cotton,FLD-08,Vegetative,Barnyard Grass (Echinochloa crus-galli),32,High,44.6,No treatment,21.5,0.85
+REC-476,2026-04-28,Cotton,FLD-02,Seedling,Barnyard Grass (Echinochloa crus-galli),13,Medium,20.5,Herbicide,12.2,0.91
+REC-123,2026-04-28,Cotton,FLD-13,Seedling,Barnyard Grass (Echinochloa crus-galli),18,Medium,30.9,Herbicide,13.9,0.96
+REC-247,2026-04-28,Sugarcane,FLD-02,Maturity,Parthenium (Parthenium hysterophorus),9,Low,12.7,Herbicide,5.8,0.93
+REC-439,2026-04-30,Rice (Paddy),FLD-06,Maturity,Bermuda Grass (Cynodon dactylon),10,Low,12.0,Manual weeding,4.3,0.96
+REC-069,2026-05-01,Maize,FLD-04,Maturity,Parthenium (Parthenium hysterophorus),15,Medium,24.3,Herbicide,3.3,0.91
+REC-443,2026-05-02,Ragi (Finger millet),FLD-10,Seedling,Broadleaf Weeds (Amaranthus spp.),34,High,51.6,No treatment,26.4,0.97
+REC-432,2026-05-03,Rice (Paddy),FLD-13,Seedling,Bermuda Grass (Cynodon dactylon),8,Low,18.1,Manual weeding,5.2,0.93
+REC-207,2026-05-04,Maize,FLD-02,Vegetative,Broadleaf Weeds (Amaranthus spp.),12,Medium,24.6,Manual weeding,11.0,0.86
+REC-010,2026-05-04,Rice (Paddy),FLD-11,Vegetative,Parthenium (Parthenium hysterophorus),35,High,45.4,No treatment,21.5,0.9
+REC-384,2026-05-05,Sugarcane,FLD-12,Seedling,Parthenium (Parthenium hysterophorus),11,Low,18.4,Herbicide,7.7,0.81
+REC-174,2026-05-05,Cotton,FLD-14,Seedling,Broadleaf Weeds (Amaranthus spp.),21,Medium,34.2,No treatment,17.3,0.87
+REC-249,2026-05-05,Sugarcane,FLD-04,Flowering,Parthenium (Parthenium hysterophorus),14,Medium,20.9,Manual weeding,5.6,0.88
+REC-199,2026-05-05,Rice (Paddy),FLD-05,Maturity,Barnyard Grass (Echinochloa crus-galli),35,High,47.4,No treatment,10.0,0.94
+REC-048,2026-05-05,Sugarcane,FLD-02,Vegetative,Barnyard Grass (Echinochloa crus-galli),23,Medium,30.5,No treatment,14.9,0.93
+REC-065,2026-05-06,Rice (Paddy),FLD-06,Maturity,Broadleaf Weeds (Amaranthus spp.),26,Medium,37.0,Manual weeding,9.7,0.93
+REC-317,2026-05-06,Sugarcane,FLD-04,Seedling,Nutgrass (Cyperus rotundus),17,Medium,22.7,Manual weeding,13.0,0.84
+REC-158,2026-05-07,Cotton,FLD-15,Maturity,Barnyard Grass (Echinochloa crus-galli),33,High,51.8,No treatment,8.2,0.97
+REC-107,2026-05-07,Rice (Paddy),FLD-04,Vegetative,Barnyard Grass (Echinochloa crus-galli),21,Medium,36.5,Manual weeding,12.6,0.92
+REC-284,2026-05-07,Ragi (Finger millet),FLD-04,Flowering,Barnyard Grass (Echinochloa crus-galli),50,High,72.9,No treatment,25.9,0.94
+REC-287,2026-05-08,Ragi (Finger millet),FLD-07,Seedling,Broadleaf Weeds (Amaranthus spp.),9,Low,16.2,Herbicide,5.0,0.82
+REC-437,2026-05-08,Rice (Paddy),FLD-15,Seedling,Broadleaf Weeds (Amaranthus spp.),8,Low,15.5,Manual weeding,8.0,0.92
+REC-339,2026-05-08,Rice (Paddy),FLD-02,Maturity,Broadleaf Weeds (Amaranthus spp.),22,Medium,36.0,Mechanical weeding,6.5,0.76
+REC-467,2026-05-09,Cotton,FLD-06,Flowering,False Daisy (Eclipta prostrata),29,Medium,38.2,Mechanical weeding,17.1,0.95
+REC-368,2026-05-09,Ragi (Finger millet),FLD-03,Seedling,Broadleaf Weeds (Amaranthus spp.),6,Low,13.4,Manual weeding,6.8,0.86
+REC-483,2026-05-09,Ragi (Finger millet),FLD-11,Seedling,False Daisy (Eclipta prostrata),24,Medium,42.3,Manual weeding,16.4,0.91
+REC-407,2026-05-10,Rice (Paddy),FLD-10,Seedling,Bermuda Grass (Cynodon dactylon),53,High,78.8,No treatment,40.3,0.95
+REC-462,2026-05-11,Ragi (Finger millet),FLD-08,Seedling,Parthenium (Parthenium hysterophorus),10,Low,14.4,Herbicide,10.0,0.85
+REC-452,2026-05-11,Maize,FLD-11,Maturity,Barnyard Grass (Echinochloa crus-galli),2,Low,3.0,Herbicide,1.2,0.92
+REC-335,2026-05-11,Maize,FLD-08,Seedling,Parthenium (Parthenium hysterophorus),12,Medium,19.3,Mechanical weeding,8.6,0.9
+REC-310,2026-05-12,Ragi (Finger millet),FLD-07,Flowering,False Daisy (Eclipta prostrata),18,Medium,26.6,Herbicide,10.5,0.97
+REC-064,2026-05-12,Ragi (Finger millet),FLD-06,Seedling,Parthenium (Parthenium hysterophorus),32,High,50.3,Manual weeding,22.1,0.87
+REC-058,2026-05-13,Ragi (Finger millet),FLD-04,Flowering,Broadleaf Weeds (Amaranthus spp.),11,Low,20.9,Mechanical weeding,4.5,0.9
+REC-074,2026-05-15,Sugarcane,FLD-09,Seedling,Bermuda Grass (Cynodon dactylon),11,Low,21.4,Manual weeding,9.2,0.86
+REC-416,2026-05-15,Sugarcane,FLD-09,Vegetative,Bermuda Grass (Cynodon dactylon),26,Medium,38.7,Manual weeding,13.9,0.86
+REC-282,2026-05-16,Cotton,FLD-10,Seedling,Barnyard Grass (Echinochloa crus-galli),50,High,68.1,No treatment,39.3,0.85
+REC-366,2026-05-16,Rice (Paddy),FLD-05,Seedling,Parthenium (Parthenium hysterophorus),16,Medium,21.9,Mechanical weeding,12.0,0.85
+REC-119,2026-05-17,Ragi (Finger millet),FLD-03,Maturity,Nutgrass (Cyperus rotundus),2,Low,10.8,Herbicide,3.6,0.88
+REC-382,2026-05-18,Maize,FLD-08,Flowering,Nutgrass (Cyperus rotundus),28,Medium,45.1,No treatment,18.1,0.97
+REC-353,2026-05-20,Sugarcane,FLD-05,Seedling,Broadleaf Weeds (Amaranthus spp.),15,Medium,23.5,Mechanical weeding,14.0,0.92
+REC-142,2026-05-20,Ragi (Finger millet),FLD-12,Maturity,Barnyard Grass (Echinochloa crus-galli),25,Medium,36.5,Manual weeding,4.9,0.84
+REC-072,2026-05-20,Ragi (Finger millet),FLD-01,Seedling,Parthenium (Parthenium hysterophorus),33,High,42.7,Manual weeding,25.3,0.92
+REC-067,2026-05-21,Ragi (Finger millet),FLD-13,Maturity,False Daisy (Eclipta prostrata),13,Medium,17.8,Manual weeding,7.4,0.82
+REC-015,2026-05-22,Rice (Paddy),FLD-04,Seedling,Parthenium (Parthenium hysterophorus),10,Low,16.6,Mechanical weeding,8.3,0.94
+REC-146,2026-05-24,Rice (Paddy),FLD-08,Flowering,False Daisy (Eclipta prostrata),21,Medium,31.1,Mechanical weeding,12.2,0.99
+REC-450,2026-05-24,Ragi (Finger millet),FLD-10,Maturity,Parthenium (Parthenium hysterophorus),29,Medium,40.8,No treatment,11.8,0.89
+REC-297,2026-05-24,Ragi (Finger millet),FLD-06,Seedling,False Daisy (Eclipta prostrata),5,Low,13.6,Herbicide,2.1,0.88
+REC-099,2026-05-24,Sugarcane,FLD-13,Vegetative,Bermuda Grass (Cynodon dactylon),5,Low,16.2,Manual weeding,5.5,0.87
+REC-377,2026-05-24,Sugarcane,FLD-09,Maturity,Nutgrass (Cyperus rotundus),16,Medium,24.2,Mechanical weeding,6.7,0.94
+REC-304,2026-05-25,Cotton,FLD-01,Flowering,Broadleaf Weeds (Amaranthus spp.),11,Low,21.5,Mechanical weeding,5.3,0.95
+REC-208,2026-05-26,Ragi (Finger millet),FLD-13,Vegetative,Broadleaf Weeds (Amaranthus spp.),28,Medium,41.0,No treatment,16.7,0.84
+REC-204,2026-05-26,Sugarcane,FLD-15,Flowering,Barnyard Grass (Echinochloa crus-galli),31,High,46.4,Mechanical weeding,18.2,0.82
+REC-104,2026-05-27,Maize,FLD-08,Flowering,Parthenium (Parthenium hysterophorus),4,Low,13.2,Mechanical weeding,2.7,0.85
+REC-004,2026-05-27,Maize,FLD-12,Maturity,Nutgrass (Cyperus rotundus),20,Medium,25.3,Mechanical weeding,3.7,0.86
+REC-070,2026-05-27,Maize,FLD-01,Vegetative,Bermuda Grass (Cynodon dactylon),10,Low,15.7,Herbicide,6.9,0.87
+REC-340,2026-05-29,Maize,FLD-10,Flowering,Barnyard Grass (Echinochloa crus-galli),26,Medium,40.3,No treatment,11.0,0.9
+REC-054,2026-05-30,Ragi (Finger millet),FLD-15,Seedling,Nutgrass (Cyperus rotundus),14,Medium,24.9,Herbicide,10.3,0.93
+REC-236,2026-05-30,Sugarcane,FLD-02,Flowering,Bermuda Grass (Cynodon dactylon),18,Medium,30.9,No treatment,10.7,0.89
+REC-398,2026-05-31,Rice (Paddy),FLD-15,Seedling,Bermuda Grass (Cynodon dactylon),23,Medium,35.3,No treatment,15.9,0.74
+REC-141,2026-06-01,Sugarcane,FLD-08,Flowering,Barnyard Grass (Echinochloa crus-galli),18,Medium,34.5,Manual weeding,11.1,0.87
+REC-362,2026-06-01,Maize,FLD-05,Flowering,Nutgrass (Cyperus rotundus),11,Low,16.9,Herbicide,4.8,0.92
+REC-157,2026-06-01,Rice (Paddy),FLD-04,Flowering,Broadleaf Weeds (Amaranthus spp.),28,Medium,40.3,Manual weeding,13.0,0.88
+REC-365,2026-06-02,Sugarcane,FLD-07,Maturity,Parthenium (Parthenium hysterophorus),22,Medium,34.8,Manual weeding,9.8,0.92
+REC-379,2026-06-05,Ragi (Finger millet),FLD-12,Vegetative,Barnyard Grass (Echinochloa crus-galli),6,Low,6.5,Herbicide,3.9,0.88
+REC-386,2026-06-05,Cotton,FLD-11,Flowering,False Daisy (Eclipta prostrata),32,High,52.5,No treatment,19.9,0.87
+REC-045,2026-06-05,Ragi (Finger millet),FLD-07,Maturity,Nutgrass (Cyperus rotundus),16,Medium,30.0,Manual weeding,5.0,0.99
+REC-184,2026-06-05,Rice (Paddy),FLD-04,Maturity,Broadleaf Weeds (Amaranthus spp.),12,Medium,15.1,Herbicide,5.9,0.91
+REC-164,2026-06-06,Ragi (Finger millet),FLD-15,Flowering,Barnyard Grass (Echinochloa crus-galli),8,Low,11.5,Herbicide,8.8,0.89
+REC-024,2026-06-06,Ragi (Finger millet),FLD-09,Vegetative,Broadleaf Weeds (Amaranthus spp.),25,Medium,36.8,No treatment,16.3,0.82
+REC-375,2026-06-06,Maize,FLD-15,Flowering,Barnyard Grass (Echinochloa crus-galli),55,High,81.9,No treatment,30.8,0.92
+REC-465,2026-06-07,Cotton,FLD-06,Maturity,False Daisy (Eclipta prostrata),27,Medium,39.7,Manual weeding,9.7,0.9
+REC-414,2026-06-07,Cotton,FLD-03,Maturity,Nutgrass (Cyperus rotundus),17,Medium,25.9,Manual weeding,6.4,0.88
+REC-413,2026-06-07,Ragi (Finger millet),FLD-12,Maturity,Bermuda Grass (Cynodon dactylon),25,Medium,45.5,Manual weeding,9.6,0.91
+REC-129,2026-06-08,Maize,FLD-05,Vegetative,Parthenium (Parthenium hysterophorus),14,Medium,20.2,Manual weeding,8.5,0.93
+REC-330,2026-06-08,Cotton,FLD-10,Seedling,Bermuda Grass (Cynodon dactylon),4,Low,8.5,Herbicide,2.0,0.88
+REC-383,2026-06-08,Cotton,FLD-04,Maturity,Parthenium (Parthenium hysterophorus),7,Low,10.1,Herbicide,2.6,0.8
+REC-323,2026-06-09,Rice (Paddy),FLD-14,Seedling,Broadleaf Weeds (Amaranthus spp.),7,Low,7.0,Manual weeding,6.1,0.99
+REC-302,2026-06-10,Rice (Paddy),FLD-02,Flowering,False Daisy (Eclipta prostrata),10,Low,17.6,Herbicide,4.0,0.86
+REC-137,2026-06-10,Cotton,FLD-08,Maturity,Parthenium (Parthenium hysterophorus),4,Low,7.0,Mechanical weeding,2.4,0.88
+REC-083,2026-06-12,Ragi (Finger millet),FLD-09,Flowering,Barnyard Grass (Echinochloa crus-galli),20,Medium,32.9,Manual weeding,10.5,0.85
+REC-295,2026-06-12,Rice (Paddy),FLD-13,Vegetative,Barnyard Grass (Echinochloa crus-galli),2,Low,6.4,Herbicide,1.2,0.83
+REC-030,2026-06-13,Maize,FLD-05,Maturity,Nutgrass (Cyperus rotundus),15,Medium,20.7,Manual weeding,7.2,0.93
+REC-232,2026-06-13,Cotton,FLD-08,Flowering,Nutgrass (Cyperus rotundus),15,Medium,19.7,Herbicide,6.9,0.91
+REC-220,2026-06-14,Cotton,FLD-07,Maturity,False Daisy (Eclipta prostrata),27,Medium,41.1,No treatment,9.2,0.95
+REC-050,2026-06-14,Cotton,FLD-11,Flowering,Parthenium (Parthenium hysterophorus),8,Low,15.3,Manual weeding,4.3,0.83
+REC-173,2026-06-16,Rice (Paddy),FLD-14,Flowering,False Daisy (Eclipta prostrata),24,Medium,37.7,Mechanical weeding,12.0,0.95
+REC-334,2026-06-17,Cotton,FLD-03,Flowering,Broadleaf Weeds (Amaranthus spp.),30,High,49.0,No treatment,16.1,0.87
+REC-256,2026-06-18,Cotton,FLD-08,Seedling,Bermuda Grass (Cynodon dactylon),20,Medium,29.3,Manual weeding,15.5,0.99
+REC-409,2026-06-18,Maize,FLD-09,Flowering,Nutgrass (Cyperus rotundus),6,Low,15.2,Herbicide,2.6,0.87
+REC-301,2026-06-18,Cotton,FLD-10,Vegetative,Broadleaf Weeds (Amaranthus spp.),10,Low,16.2,Herbicide,7.0,0.92
+REC-457,2026-06-20,Rice (Paddy),FLD-02,Flowering,Broadleaf Weeds (Amaranthus spp.),34,High,51.2,No treatment,16.0,0.96
+REC-014,2026-06-20,Cotton,FLD-07,Flowering,False Daisy (Eclipta prostrata),10,Low,19.3,Manual weeding,7.1,0.94
+REC-176,2026-06-20,Cotton,FLD-03,Flowering,Barnyard Grass (Echinochloa crus-galli),27,Medium,43.6,No treatment,13.0,0.82
+REC-189,2026-06-21,Sugarcane,FLD-06,Vegetative,Barnyard Grass (Echinochloa crus-galli),5,Low,13.9,Herbicide,1.7,0.99
+REC-077,2026-06-21,Ragi (Finger millet),FLD-09,Flowering,False Daisy (Eclipta prostrata),17,Medium,27.3,Mechanical weeding,11.3,0.86
+REC-103,2026-06-21,Cotton,FLD-03,Seedling,Parthenium (Parthenium hysterophorus),19,Medium,31.2,Mechanical weeding,16.0,0.83
+REC-464,2026-06-22,Ragi (Finger millet),FLD-01,Maturity,Parthenium (Parthenium hysterophorus),7,Low,16.2,Mechanical weeding,4.2,0.86
+REC-264,2026-06-22,Maize,FLD-10,Seedling,Parthenium (Parthenium hysterophorus),22,Medium,34.5,Mechanical weeding,16.1,0.86
+REC-475,2026-06-23,Maize,FLD-11,Seedling,Broadleaf Weeds (Amaranthus spp.),15,Medium,29.0,Mechanical weeding,12.6,0.88
+REC-151,2026-06-24,Cotton,FLD-02,Maturity,Parthenium (Parthenium hysterophorus),24,Medium,33.6,Mechanical weeding,9.7,0.96
+REC-291,2026-06-24,Rice (Paddy),FLD-06,Vegetative,False Daisy (Eclipta prostrata),8,Low,21.7,No treatment,3.0,0.81
+REC-268,2026-06-26,Maize,FLD-02,Flowering,Barnyard Grass (Echinochloa crus-galli),27,Medium,41.5,No treatment,14.1,0.91
+REC-219,2026-06-27,Maize,FLD-07,Maturity,Nutgrass (Cyperus rotundus),5,Low,8.6,Mechanical weeding,1.6,0.98
+REC-260,2026-06-27,Ragi (Finger millet),FLD-15,Flowering,Bermuda Grass (Cynodon dactylon),6,Low,7.7,Mechanical weeding,3.6,0.94
+REC-022,2026-06-28,Rice (Paddy),FLD-11,Seedling,False Daisy (Eclipta prostrata),5,Low,9.2,Herbicide,5.5,0.91
+REC-005,2026-06-28,Rice (Paddy),FLD-13,Vegetative,False Daisy (Eclipta prostrata),8,Low,15.7,Mechanical weeding,3.8,0.82
+REC-333,2026-06-30,Maize,FLD-06,Vegetative,Parthenium (Parthenium hysterophorus),3,Low,9.8,Herbicide,4.8,0.95
+REC-324,2026-07-01,Maize,FLD-03,Flowering,False Daisy (Eclipta prostrata),15,Medium,26.8,Manual weeding,8.1,0.89
+REC-404,2026-07-01,Cotton,FLD-14,Vegetative,Nutgrass (Cyperus rotundus),25,Medium,37.5,Mechanical weeding,16.7,0.99
+REC-363,2026-07-02,Maize,FLD-12,Maturity,Parthenium (Parthenium hysterophorus),29,Medium,43.2,Mechanical weeding,10.4,0.98
+REC-303,2026-07-03,Cotton,FLD-10,Maturity,Nutgrass (Cyperus rotundus),5,Low,16.0,Mechanical weeding,1.2,0.86
+REC-226,2026-07-03,Maize,FLD-03,Maturity,Nutgrass (Cyperus rotundus),37,High,52.8,No treatment,12.7,0.95
+REC-253,2026-07-04,Cotton,FLD-08,Flowering,Parthenium (Parthenium hysterophorus),44,High,61.8,No treatment,25.6,0.9
+REC-186,2026-07-04,Rice (Paddy),FLD-15,Maturity,Parthenium (Parthenium hysterophorus),3,Low,4.2,Manual weeding,1.2,0.89
+REC-125,2026-07-04,Sugarcane,FLD-09,Flowering,Bermuda Grass (Cynodon dactylon),4,Low,8.8,Herbicide,1.2,0.82
+REC-474,2026-07-05,Sugarcane,FLD-10,Seedling,Barnyard Grass (Echinochloa crus-galli),12,Medium,19.9,Manual weeding,9.1,0.87
+REC-290,2026-07-06,Cotton,FLD-06,Flowering,False Daisy (Eclipta prostrata),25,Medium,44.5,No treatment,14.9,0.87
+REC-473,2026-07-08,Sugarcane,FLD-07,Maturity,Broadleaf Weeds (Amaranthus spp.),27,Medium,40.4,No treatment,10.2,0.89
+REC-018,2026-07-09,Sugarcane,FLD-05,Maturity,Broadleaf Weeds (Amaranthus spp.),21,Medium,30.4,Mechanical weeding,7.8,0.97
+REC-316,2026-07-09,Sugarcane,FLD-05,Flowering,Nutgrass (Cyperus rotundus),20,Medium,31.2,Manual weeding,11.5,0.84
+REC-245,2026-07-09,Rice (Paddy),FLD-06,Vegetative,Broadleaf Weeds (Amaranthus spp.),13,Medium,14.3,Mechanical weeding,6.0,0.93
+REC-212,2026-07-09,Rice (Paddy),FLD-12,Seedling,Bermuda Grass (Cynodon dactylon),19,Medium,31.1,Mechanical weeding,15.2,0.99
+REC-343,2026-07-09,Ragi (Finger millet),FLD-01,Maturity,Barnyard Grass (Echinochloa crus-galli),12,Medium,17.5,Manual weeding,3.8,0.98
+REC-075,2026-07-10,Rice (Paddy),FLD-12,Maturity,Barnyard Grass (Echinochloa crus-galli),23,Medium,36.0,Manual weeding,9.3,0.92
+REC-259,2026-07-10,Maize,FLD-12,Maturity,Bermuda Grass (Cynodon dactylon),19,Medium,31.6,Manual weeding,5.6,0.97
+REC-203,2026-07-12,Cotton,FLD-08,Vegetative,Parthenium (Parthenium hysterophorus),46,High,63.4,No treatment,31.0,0.87
+REC-299,2026-07-12,Cotton,FLD-06,Vegetative,Bermuda Grass (Cynodon dactylon),12,Medium,21.2,Mechanical weeding,5.3,0.91
+REC-062,2026-07-13,Rice (Paddy),FLD-15,Vegetative,Broadleaf Weeds (Amaranthus spp.),19,Medium,28.6,No treatment,12.1,0.86
+REC-425,2026-07-13,Rice (Paddy),FLD-13,Maturity,Parthenium (Parthenium hysterophorus),7,Low,11.4,Manual weeding,3.3,0.9
+REC-112,2026-07-13,Sugarcane,FLD-13,Seedling,Parthenium (Parthenium hysterophorus),6,Low,14.1,Mechanical weeding,5.3,0.84
+REC-308,2026-07-13,Rice (Paddy),FLD-10,Vegetative,False Daisy (Eclipta prostrata),26,Medium,45.7,Mechanical weeding,16.7,0.82
+REC-399,2026-07-15,Cotton,FLD-03,Vegetative,False Daisy (Eclipta prostrata),21,Medium,35.1,Mechanical weeding,10.1,0.84
+REC-279,2026-07-15,Sugarcane,FLD-06,Vegetative,Bermuda Grass (Cynodon dactylon),42,High,62.2,No treatment,28.9,0.91
+REC-231,2026-07-16,Maize,FLD-12,Seedling,Barnyard Grass (Echinochloa crus-galli),24,Medium,33.3,Manual weeding,18.8,0.85
+REC-418,2026-07-17,Sugarcane,FLD-12,Vegetative,Barnyard Grass (Echinochloa crus-galli),14,Medium,24.5,Herbicide,9.1,0.87
+REC-240,2026-07-18,Rice (Paddy),FLD-08,Maturity,Nutgrass (Cyperus rotundus),18,Medium,29.7,Manual weeding,7.2,0.91
+REC-459,2026-07-18,Sugarcane,FLD-15,Vegetative,Broadleaf Weeds (Amaranthus spp.),23,Medium,35.9,Manual weeding,14.6,0.91
+REC-195,2026-07-19,Rice (Paddy),FLD-08,Flowering,False Daisy (Eclipta prostrata),6,Low,11.4,Herbicide,3.0,0.92
+REC-273,2026-07-19,Ragi (Finger millet),FLD-11,Maturity,Bermuda Grass (Cynodon dactylon),8,Low,14.2,Herbicide,2.6,0.89
+REC-162,2026-07-20,Cotton,FLD-08,Vegetative,Bermuda Grass (Cynodon dactylon),14,Medium,22.1,Manual weeding,4.7,0.89
+REC-498,2026-07-20,Ragi (Finger millet),FLD-01,Maturity,Nutgrass (Cyperus rotundus),10,Low,18.8,Manual weeding,4.9,0.93
+REC-490,2026-07-22,Ragi (Finger millet),FLD-11,Maturity,Broadleaf Weeds (Amaranthus spp.),2,Low,16.1,Herbicide,2.6,0.9
+REC-096,2026-07-23,Cotton,FLD-07,Seedling,Nutgrass (Cyperus rotundus),10,Low,15.7,Mechanical weeding,3.9,0.86
+REC-477,2026-07-24,Sugarcane,FLD-12,Vegetative,Bermuda Grass (Cynodon dactylon),9,Low,17.5,Herbicide,3.3,0.83
+REC-263,2026-07-24,Ragi (Finger millet),FLD-02,Vegetative,Parthenium (Parthenium hysterophorus),17,Medium,31.1,Herbicide,10.5,0.91
+REC-345,2026-07-25,Ragi (Finger millet),FLD-14,Seedling,Nutgrass (Cyperus rotundus),25,Medium,40.9,No treatment,18.3,0.98
+REC-101,2026-07-25,Maize,FLD-14,Maturity,Nutgrass (Cyperus rotundus),15,Medium,22.5,No treatment,5.1,0.89
+REC-237,2026-07-26,Sugarcane,FLD-08,Flowering,Barnyard Grass (Echinochloa crus-galli),30,High,41.3,Manual weeding,13.1,0.86
+REC-395,2026-07-26,Cotton,FLD-11,Flowering,False Daisy (Eclipta prostrata),15,Medium,27.7,No treatment,6.6,0.85
+REC-278,2026-07-26,Ragi (Finger millet),FLD-15,Seedling,Bermuda Grass (Cynodon dactylon),26,Medium,44.8,No treatment,19.8,0.9
+REC-016,2026-07-26,Rice (Paddy),FLD-04,Flowering,Nutgrass (Cyperus rotundus),13,Medium,21.0,Mechanical weeding,4.9,0.83
+REC-319,2026-07-27,Sugarcane,FLD-03,Seedling,Barnyard Grass (Echinochloa crus-galli),4,Low,8.5,Herbicide,5.3,0.9
+REC-172,2026-07-27,Maize,FLD-02,Maturity,Parthenium (Parthenium hysterophorus),3,Low,10.2,Herbicide,1.2,0.87
+REC-438,2026-07-27,Maize,FLD-10,Flowering,Parthenium (Parthenium hysterophorus),10,Low,20.5,Herbicide,1.2,0.92
+REC-110,2026-07-27,Ragi (Finger millet),FLD-02,Seedling,Parthenium (Parthenium hysterophorus),32,High,43.1,Mechanical weeding,21.7,0.89
+REC-246,2026-07-29,Rice (Paddy),FLD-07,Seedling,Nutgrass (Cyperus rotundus),25,Medium,39.0,Mechanical weeding,17.6,0.89
+REC-342,2026-07-30,Cotton,FLD-03,Flowering,False Daisy (Eclipta prostrata),15,Medium,23.8,Herbicide,7.9,0.84
+REC-154,2026-07-30,Rice (Paddy),FLD-06,Flowering,Parthenium (Parthenium hysterophorus),36,High,49.2,No treatment,23.4,0.9
+REC-244,2026-07-31,Cotton,FLD-12,Maturity,Parthenium (Parthenium hysterophorus),42,High,58.7,No treatment,13.5,0.8
+REC-100,2026-07-31,Cotton,FLD-08,Seedling,Bermuda Grass (Cynodon dactylon),2,Low,10.8,Herbicide,1.3,0.95
+REC-171,2026-08-02,Sugarcane,FLD-15,Maturity,Barnyard Grass (Echinochloa crus-galli),21,Medium,29.0,Manual weeding,6.2,0.91
+REC-470,2026-08-02,Maize,FLD-08,Flowering,False Daisy (Eclipta prostrata),26,Medium,38.5,No treatment,10.7,0.85
+REC-152,2026-08-03,Ragi (Finger millet),FLD-11,Seedling,Nutgrass (Cyperus rotundus),12,Medium,25.8,Herbicide,7.9,0.83
+REC-357,2026-08-03,Ragi (Finger millet),FLD-07,Vegetative,Bermuda Grass (Cynodon dactylon),7,Low,7.6,Manual weeding,8.5,0.83
+REC-037,2026-08-03,Rice (Paddy),FLD-02,Maturity,Parthenium (Parthenium hysterophorus),20,Medium,33.3,Mechanical weeding,4.6,0.82
+REC-410,2026-08-04,Maize,FLD-05,Vegetative,False Daisy (Eclipta prostrata),8,Low,16.1,Manual weeding,9.2,0.84
+REC-155,2026-08-04,Sugarcane,FLD-14,Seedling,False Daisy (Eclipta prostrata),18,Medium,30.5,Mechanical weeding,14.8,0.9
+REC-161,2026-08-05,Cotton,FLD-15,Flowering,Broadleaf Weeds (Amaranthus spp.),8,Low,19.8,Herbicide,3.7,0.81
+REC-163,2026-08-05,Maize,FLD-15,Vegetative,Barnyard Grass (Echinochloa crus-galli),8,Low,16.9,Herbicide,8.8,0.95
+REC-499,2026-08-05,Sugarcane,FLD-09,Maturity,Bermuda Grass (Cynodon dactylon),28,Medium,43.9,Mechanical weeding,10.2,0.94
+REC-352,2026-08-06,Rice (Paddy),FLD-06,Flowering,False Daisy (Eclipta prostrata),43,High,59.8,No treatment,20.1,0.97
+REC-415,2026-08-06,Maize,FLD-13,Maturity,Barnyard Grass (Echinochloa crus-galli),19,Medium,33.6,Mechanical weeding,4.7,0.95
+REC-494,2026-08-07,Ragi (Finger millet),FLD-12,Vegetative,Broadleaf Weeds (Amaranthus spp.),23,Medium,35.6,Mechanical weeding,15.7,0.87
+REC-336,2026-08-07,Maize,FLD-02,Seedling,Parthenium (Parthenium hysterophorus),19,Medium,29.7,Mechanical weeding,15.5,0.95
+REC-461,2026-08-08,Maize,FLD-02,Vegetative,Bermuda Grass (Cynodon dactylon),9,Low,10.5,Herbicide,5.2,0.89
+REC-224,2026-08-09,Sugarcane,FLD-06,Seedling,Bermuda Grass (Cynodon dactylon),15,Medium,27.8,Herbicide,14.1,0.92
+REC-234,2026-08-10,Sugarcane,FLD-01,Seedling,Parthenium (Parthenium hysterophorus),4,Low,3.0,Mechanical weeding,3.9,0.86
+REC-182,2026-08-10,Maize,FLD-02,Maturity,Parthenium (Parthenium hysterophorus),10,Low,16.9,Herbicide,3.4,0.91
+REC-380,2026-08-11,Sugarcane,FLD-11,Vegetative,Nutgrass (Cyperus rotundus),31,High,47.7,Mechanical weeding,19.3,0.98
+REC-411,2026-08-11,Ragi (Finger millet),FLD-05,Seedling,Broadleaf Weeds (Amaranthus spp.),16,Medium,29.8,Manual weeding,12.3,0.91
+REC-227,2026-08-12,Sugarcane,FLD-06,Seedling,Parthenium (Parthenium hysterophorus),17,Medium,27.1,Manual weeding,10.7,0.93
+REC-451,2026-08-14,Cotton,FLD-08,Vegetative,Parthenium (Parthenium hysterophorus),35,High,51.1,Mechanical weeding,22.6,0.81
+REC-442,2026-08-15,Rice (Paddy),FLD-12,Vegetative,Barnyard Grass (Echinochloa crus-galli),15,Medium,21.7,Mechanical weeding,14.1,0.88
+REC-073,2026-08-16,Rice (Paddy),FLD-02,Maturity,Parthenium (Parthenium hysterophorus),11,Low,17.0,Herbicide,3.4,0.87
+REC-150,2026-08-16,Maize,FLD-08,Maturity,Parthenium (Parthenium hysterophorus),13,Medium,18.6,Manual weeding,3.6,0.91
+REC-145,2026-08-17,Rice (Paddy),FLD-03,Flowering,Broadleaf Weeds (Amaranthus spp.),11,Low,21.2,Herbicide,3.1,0.95
+REC-132,2026-08-18,Rice (Paddy),FLD-10,Flowering,Bermuda Grass (Cynodon dactylon),11,Low,13.4,Mechanical weeding,2.9,0.89
+REC-356,2026-08-18,Sugarcane,FLD-12,Seedling,Nutgrass (Cyperus rotundus),38,High,58.5,No treatment,28.8,0.85
+REC-298,2026-08-18,Rice (Paddy),FLD-13,Flowering,Bermuda Grass (Cynodon dactylon),22,Medium,30.8,Mechanical weeding,11.8,0.82
+REC-156,2026-08-19,Rice (Paddy),FLD-04,Flowering,Broadleaf Weeds (Amaranthus spp.),10,Low,18.9,Mechanical weeding,8.7,0.96
+REC-081,2026-08-19,Cotton,FLD-13,Flowering,Bermuda Grass (Cynodon dactylon),18,Medium,30.1,Mechanical weeding,8.0,0.99
+REC-271,2026-08-22,Cotton,FLD-06,Vegetative,Bermuda Grass (Cynodon dactylon),8,Low,13.8,Herbicide,4.9,0.99
+REC-277,2026-08-23,Sugarcane,FLD-03,Maturity,Barnyard Grass (Echinochloa crus-galli),24,Medium,33.3,Manual weeding,9.3,0.84
+REC-276,2026-08-23,Rice (Paddy),FLD-05,Seedling,Nutgrass (Cyperus rotundus),14,Medium,14.2,Herbicide,14.6,0.88
+REC-090,2026-08-23,Cotton,FLD-15,Vegetative,False Daisy (Eclipta prostrata),17,Medium,26.1,Mechanical weeding,12.2,0.85
+REC-140,2026-08-23,Sugarcane,FLD-02,Vegetative,Barnyard Grass (Echinochloa crus-galli),13,Medium,20.3,Mechanical weeding,9.6,0.87
+REC-486,2026-08-23,Cotton,FLD-07,Seedling,False Daisy (Eclipta prostrata),18,Medium,27.1,Manual weeding,14.4,0.87
+REC-481,2026-08-24,Cotton,FLD-06,Maturity,Barnyard Grass (Echinochloa crus-galli),4,Low,11.6,Mechanical weeding,1.2,0.9
+REC-376,2026-08-25,Sugarcane,FLD-10,Seedling,Parthenium (Parthenium hysterophorus),13,Medium,19.9,Herbicide,8.6,0.89
+REC-217,2026-08-25,Maize,FLD-05,Flowering,Bermuda Grass (Cynodon dactylon),6,Low,10.9,Herbicide,3.7,0.91
+REC-044,2026-08-25,Maize,FLD-07,Seedling,Bermuda Grass (Cynodon dactylon),9,Low,17.2,Herbicide,7.5,0.93
+REC-153,2026-08-25,Cotton,FLD-05,Maturity,Broadleaf Weeds (Amaranthus spp.),13,Medium,26.0,No treatment,5.6,0.89
+REC-166,2026-08-26,Cotton,FLD-06,Flowering,Broadleaf Weeds (Amaranthus spp.),12,Medium,18.6,Mechanical weeding,6.3,0.86
+REC-491,2026-08-27,Sugarcane,FLD-07,Seedling,Parthenium (Parthenium hysterophorus),9,Low,17.0,Herbicide,7.9,0.92
+REC-378,2026-08-27,Maize,FLD-13,Seedling,Parthenium (Parthenium hysterophorus),16,Medium,30.0,Manual weeding,10.3,0.88
+REC-051,2026-08-27,Maize,FLD-05,Maturity,Nutgrass (Cyperus rotundus),11,Low,20.5,Herbicide,5.7,0.94
+REC-242,2026-08-28,Cotton,FLD-14,Seedling,Bermuda Grass (Cynodon dactylon),32,High,51.5,No treatment,23.6,0.98
+REC-180,2026-08-28,Sugarcane,FLD-03,Vegetative,Bermuda Grass (Cynodon dactylon),10,Low,18.0,Herbicide,6.2,0.89
+REC-484,2026-08-29,Sugarcane,FLD-03,Vegetative,Parthenium (Parthenium hysterophorus),13,Medium,21.2,Mechanical weeding,13.6,0.81
+REC-469,2026-08-29,Sugarcane,FLD-04,Vegetative,False Daisy (Eclipta prostrata),29,Medium,45.5,No treatment,22.1,0.96
+REC-332,2026-08-30,Rice (Paddy),FLD-03,Maturity,Bermuda Grass (Cynodon dactylon),18,Medium,22.4,Mechanical weeding,4.4,0.88
+REC-197,2026-08-30,Ragi (Finger millet),FLD-15,Vegetative,False Daisy (Eclipta prostrata),39,High,59.9,No treatment,28.1,0.91
+REC-115,2026-08-31,Cotton,FLD-03,Flowering,Broadleaf Weeds (Amaranthus spp.),17,Medium,23.8,Mechanical weeding,8.0,0.83
+REC-424,2026-08-31,Ragi (Finger millet),FLD-05,Flowering,Parthenium (Parthenium hysterophorus),25,Medium,33.7,Mechanical weeding,13.4,0.99
+REC-108,2026-08-31,Maize,FLD-08,Seedling,Broadleaf Weeds (Amaranthus spp.),24,Medium,31.1,Manual weeding,16.5,0.79
+REC-318,2026-09-01,Cotton,FLD-01,Flowering,Broadleaf Weeds (Amaranthus spp.),6,Low,15.8,Herbicide,5.1,0.92
+REC-281,2026-09-02,Maize,FLD-01,Flowering,Bermuda Grass (Cynodon dactylon),24,Medium,40.0,Manual weeding,13.8,0.83
+REC-068,2026-09-02,Maize,FLD-13,Seedling,Bermuda Grass (Cynodon dactylon),28,Medium,42.2,No treatment,24.3,0.82
+REC-124,2026-09-04,Cotton,FLD-12,Vegetative,Parthenium (Parthenium hysterophorus),10,Low,14.9,Herbicide,9.6,0.92
+REC-221,2026-09-04,Cotton,FLD-06,Flowering,Parthenium (Parthenium hysterophorus),36,High,51.0,Manual weeding,18.1,0.94
+REC-168,2026-09-04,Cotton,FLD-04,Maturity,Barnyard Grass (Echinochloa crus-galli),2,Low,10.0,Herbicide,2.9,0.79
+REC-351,2026-09-05,Sugarcane,FLD-09,Maturity,False Daisy (Eclipta prostrata),4,Low,11.0,Herbicide,3.5,0.93
+REC-097,2026-09-06,Sugarcane,FLD-12,Seedling,Broadleaf Weeds (Amaranthus spp.),11,Low,19.3,Mechanical weeding,9.1,0.98
+REC-387,2026-09-06,Ragi (Finger millet),FLD-10,Vegetative,Nutgrass (Cyperus rotundus),11,Low,20.3,Manual weeding,5.7,0.91
+REC-371,2026-09-06,Maize,FLD-01,Vegetative,Bermuda Grass (Cynodon dactylon),24,Medium,35.3,Mechanical weeding,19.5,0.87
+REC-421,2026-09-07,Maize,FLD-15,Vegetative,False Daisy (Eclipta prostrata),37,High,53.9,No treatment,23.6,0.91
+REC-472,2026-09-07,Cotton,FLD-13,Maturity,Barnyard Grass (Echinochloa crus-galli),17,Medium,27.8,Mechanical weeding,4.3,0.91
+REC-354,2026-09-07,Sugarcane,FLD-10,Vegetative,False Daisy (Eclipta prostrata),38,High,61.8,No treatment,24.8,0.94
+REC-191,2026-09-08,Sugarcane,FLD-15,Flowering,Nutgrass (Cyperus rotundus),7,Low,13.8,Herbicide,8.3,0.89
+REC-183,2026-09-09,Ragi (Finger millet),FLD-08,Flowering,Nutgrass (Cyperus rotundus),13,Medium,19.2,Mechanical weeding,7.2,0.84
+REC-478,2026-09-09,Cotton,FLD-13,Vegetative,Parthenium (Parthenium hysterophorus),19,Medium,30.1,No treatment,16.1,0.99
+REC-434,2026-09-11,Cotton,FLD-06,Seedling,Broadleaf Weeds (Amaranthus spp.),17,Medium,26.0,Mechanical weeding,14.6,0.81
+REC-495,2026-09-11,Sugarcane,FLD-03,Maturity,Bermuda Grass (Cynodon dactylon),24,Medium,39.2,Manual weeding,6.8,0.91
+REC-496,2026-09-12,Sugarcane,FLD-12,Vegetative,Broadleaf Weeds (Amaranthus spp.),8,Low,10.7,Manual weeding,4.3,0.93
+REC-113,2026-09-12,Rice (Paddy),FLD-09,Flowering,Barnyard Grass (Echinochloa crus-galli),13,Medium,18.4,Mechanical weeding,6.7,0.94
+REC-392,2026-09-12,Ragi (Finger millet),FLD-14,Maturity,Barnyard Grass (Echinochloa crus-galli),21,Medium,31.5,Manual weeding,7.3,0.92
+REC-201,2026-09-12,Cotton,FLD-10,Vegetative,Bermuda Grass (Cynodon dactylon),43,High,60.5,No treatment,29.5,0.87
+REC-026,2026-09-12,Sugarcane,FLD-13,Seedling,Broadleaf Weeds (Amaranthus spp.),2,Low,5.4,Herbicide,1.2,0.85
+REC-121,2026-09-12,Maize,FLD-02,Vegetative,False Daisy (Eclipta prostrata),16,Medium,22.7,Mechanical weeding,8.0,0.9
+REC-122,2026-09-13,Sugarcane,FLD-13,Vegetative,False Daisy (Eclipta prostrata),11,Low,14.6,Mechanical weeding,6.3,0.84
+REC-429,2026-09-13,Sugarcane,FLD-11,Flowering,Parthenium (Parthenium hysterophorus),4,Low,11.9,Mechanical weeding,1.2,0.89
+REC-215,2026-09-13,Cotton,FLD-14,Maturity,Bermuda Grass (Cynodon dactylon),23,Medium,36.5,No treatment,6.8,0.92
+REC-460,2026-09-14,Maize,FLD-03,Flowering,Parthenium (Parthenium hysterophorus),4,Low,9.7,Herbicide,2.0,0.88
+REC-118,2026-09-15,Sugarcane,FLD-11,Maturity,Parthenium (Parthenium hysterophorus),27,Medium,38.7,No treatment,8.7,0.77
+REC-374,2026-09-15,Cotton,FLD-15,Vegetative,Barnyard Grass (Echinochloa crus-galli),12,Medium,20.8,Mechanical weeding,11.0,0.99
+REC-179,2026-09-16,Maize,FLD-02,Maturity,Broadleaf Weeds (Amaranthus spp.),11,Low,20.0,Manual weeding,3.7,0.95
+REC-338,2026-09-16,Maize,FLD-08,Maturity,Bermuda Grass (Cynodon dactylon),3,Low,7.4,Herbicide,1.2,0.8
+REC-285,2026-09-17,Cotton,FLD-11,Maturity,Barnyard Grass (Echinochloa crus-galli),46,High,62.4,No treatment,16.8,0.93
+REC-428,2026-09-17,Ragi (Finger millet),FLD-04,Maturity,Broadleaf Weeds (Amaranthus spp.),14,Medium,20.0,Manual weeding,6.8,0.88
+REC-448,2026-09-18,Ragi (Finger millet),FLD-07,Vegetative,False Daisy (Eclipta prostrata),36,High,56.6,No treatment,21.2,0.9
+REC-322,2026-09-19,Ragi (Finger millet),FLD-03,Vegetative,Nutgrass (Cyperus rotundus),10,Low,13.5,Mechanical weeding,3.5,0.92
+REC-433,2026-09-20,Rice (Paddy),FLD-12,Vegetative,Barnyard Grass (Echinochloa crus-galli),18,Medium,33.8,Manual weeding,11.9,0.87
+REC-350,2026-09-21,Cotton,FLD-10,Flowering,Broadleaf Weeds (Amaranthus spp.),3,Low,5.1,Herbicide,3.7,0.86
+REC-255,2026-09-21,Rice (Paddy),FLD-06,Flowering,Barnyard Grass (Echinochloa crus-galli),25,Medium,36.3,No treatment,12.6,0.91
+REC-225,2026-09-21,Rice (Paddy),FLD-05,Flowering,Parthenium (Parthenium hysterophorus),31,High,46.3,No treatment,18.5,0.85
+REC-265,2026-09-22,Maize,FLD-11,Seedling,False Daisy (Eclipta prostrata),17,Medium,30.5,Mechanical weeding,14.2,0.87
+REC-034,2026-09-25,Maize,FLD-02,Seedling,Parthenium (Parthenium hysterophorus),21,Medium,33.8,No treatment,14.6,0.97
+REC-321,2026-09-26,Ragi (Finger millet),FLD-11,Seedling,Bermuda Grass (Cynodon dactylon),19,Medium,29.2,Mechanical weeding,16.0,0.94
+REC-275,2026-09-26,Ragi (Finger millet),FLD-01,Maturity,Parthenium (Parthenium hysterophorus),33,High,42.6,No treatment,12.9,0.91
+REC-120,2026-09-26,Ragi (Finger millet),FLD-05,Flowering,Broadleaf Weeds (Amaranthus spp.),39,High,57.6,No treatment,26.1,0.95
+REC-087,2026-09-27,Rice (Paddy),FLD-13,Maturity,Nutgrass (Cyperus rotundus),12,Medium,20.9,Manual weeding,1.5,0.82
+REC-091,2026-09-28,Ragi (Finger millet),FLD-13,Vegetative,False Daisy (Eclipta prostrata),12,Medium,24.8,Herbicide,8.0,0.91
+REC-480,2026-09-28,Ragi (Finger millet),FLD-05,Flowering,Bermuda Grass (Cynodon dactylon),9,Low,14.3,Manual weeding,4.4,0.87
+REC-136,2026-09-29,Sugarcane,FLD-13,Maturity,Broadleaf Weeds (Amaranthus spp.),22,Medium,30.3,Manual weeding,8.5,0.96
+REC-412,2026-09-30,Sugarcane,FLD-08,Seedling,Parthenium (Parthenium hysterophorus),8,Low,16.1,Mechanical weeding,5.9,0.94
+REC-288,2026-09-30,Sugarcane,FLD-07,Vegetative,False Daisy (Eclipta prostrata),50,High,69.0,No treatment,32.3,0.78
+REC-389,2026-10-01,Maize,FLD-13,Vegetative,False Daisy (Eclipta prostrata),23,Medium,32.6,No treatment,15.3,0.91
+REC-359,2026-10-01,Sugarcane,FLD-04,Flowering,False Daisy (Eclipta prostrata),25,Medium,36.0,Mechanical weeding,12.9,0.9
+REC-211,2026-10-01,Maize,FLD-05,Seedling,Nutgrass (Cyperus rotundus),17,Medium,29.0,Mechanical weeding,11.2,0.91
+REC-190,2026-10-03,Cotton,FLD-03,Vegetative,Nutgrass (Cyperus rotundus),12,Medium,20.8,Herbicide,6.6,0.93
+REC-309,2026-10-03,Ragi (Finger millet),FLD-08,Seedling,Broadleaf Weeds (Amaranthus spp.),15,Medium,32.0,Manual weeding,10.2,0.97
+REC-435,2026-10-03,Rice (Paddy),FLD-01,Maturity,Barnyard Grass (Echinochloa crus-galli),21,Medium,29.1,No treatment,8.9,0.98
+REC-248,2026-10-03,Ragi (Finger millet),FLD-13,Vegetative,Barnyard Grass (Echinochloa crus-galli),30,High,44.6,No treatment,20.8,0.79
+REC-403,2026-10-04,Rice (Paddy),FLD-05,Maturity,False Daisy (Eclipta prostrata),20,Medium,30.2,Mechanical weeding,6.3,0.81
+REC-326,2026-10-05,Sugarcane,FLD-05,Vegetative,False Daisy (Eclipta prostrata),6,Low,15.1,Herbicide,3.8,0.85
+REC-423,2026-10-05,Ragi (Finger millet),FLD-13,Flowering,Bermuda Grass (Cynodon dactylon),20,Medium,30.2,Mechanical weeding,11.6,0.87
+REC-488,2026-10-06,Ragi (Finger millet),FLD-13,Seedling,Broadleaf Weeds (Amaranthus spp.),45,High,64.6,No treatment,31.7,0.95
+REC-071,2026-10-06,Rice (Paddy),FLD-13,Flowering,Parthenium (Parthenium hysterophorus),19,Medium,31.6,Mechanical weeding,12.9,0.83
+REC-194,2026-10-06,Ragi (Finger millet),FLD-02,Maturity,Barnyard Grass (Echinochloa crus-galli),13,Medium,24.5,Herbicide,5.6,0.81
+REC-401,2026-10-07,Maize,FLD-11,Flowering,Barnyard Grass (Echinochloa crus-galli),14,Medium,27.0,Manual weeding,6.2,0.85
+REC-388,2026-10-07,Maize,FLD-08,Flowering,Bermuda Grass (Cynodon dactylon),24,Medium,40.1,Mechanical weeding,12.5,0.88
+REC-165,2026-10-07,Sugarcane,FLD-10,Maturity,Nutgrass (Cyperus rotundus),18,Medium,28.2,Mechanical weeding,6.5,0.88
+REC-098,2026-10-07,Rice (Paddy),FLD-06,Flowering,Bermuda Grass (Cynodon dactylon),26,Medium,37.4,Mechanical weeding,12.1,0.91
+REC-200,2026-10-08,Sugarcane,FLD-03,Maturity,Bermuda Grass (Cynodon dactylon),9,Low,18.2,Herbicide,3.1,0.89
+REC-105,2026-10-08,Cotton,FLD-05,Seedling,Bermuda Grass (Cynodon dactylon),50,High,71.8,No treatment,40.9,0.89
+REC-093,2026-10-08,Ragi (Finger millet),FLD-04,Flowering,Parthenium (Parthenium hysterophorus),10,Low,15.2,Herbicide,5.3,0.91
+REC-447,2026-10-08,Ragi (Finger millet),FLD-03,Vegetative,Broadleaf Weeds (Amaranthus spp.),18,Medium,23.9,Mechanical weeding,11.7,0.85
+REC-400,2026-10-08,Cotton,FLD-08,Maturity,Bermuda Grass (Cynodon dactylon),39,High,62.8,No treatment,13.3,0.85
+REC-095,2026-10-09,Maize,FLD-02,Maturity,Bermuda Grass (Cynodon dactylon),14,Medium,23.5,Herbicide,8.7,0.85
+REC-397,2026-10-09,Rice (Paddy),FLD-07,Flowering,False Daisy (Eclipta prostrata),37,High,56.0,No treatment,19.8,0.87
+REC-143,2026-10-10,Sugarcane,FLD-11,Vegetative,Bermuda Grass (Cynodon dactylon),12,Medium,19.1,No treatment,8.2,0.97
+REC-360,2026-10-11,Cotton,FLD-06,Vegetative,Bermuda Grass (Cynodon dactylon),8,Low,19.6,Herbicide,6.3,0.93
+REC-181,2026-10-11,Ragi (Finger millet),FLD-11,Seedling,Bermuda Grass (Cynodon dactylon),11,Low,13.7,Herbicide,6.1,0.93
+REC-430,2026-10-11,Cotton,FLD-03,Flowering,Nutgrass (Cyperus rotundus),18,Medium,28.9,Manual weeding,10.8,0.87
+REC-089,2026-10-12,Cotton,FLD-11,Flowering,Bermuda Grass (Cynodon dactylon),25,Medium,37.3,Mechanical weeding,13.1,0.84
+REC-029,2026-10-13,Sugarcane,FLD-13,Vegetative,Nutgrass (Cyperus rotundus),18,Medium,35.7,Mechanical weeding,11.9,0.91
+REC-041,2026-10-13,Ragi (Finger millet),FLD-08,Vegetative,Barnyard Grass (Echinochloa crus-galli),9,Low,18.5,Mechanical weeding,8.2,0.85
+REC-315,2026-10-13,Ragi (Finger millet),FLD-11,Flowering,False Daisy (Eclipta prostrata),51,High,74.1,No treatment,25.6,0.89
+REC-344,2026-10-13,Sugarcane,FLD-05,Seedling,Bermuda Grass (Cynodon dactylon),5,Low,5.9,Mechanical weeding,6.5,0.88
+REC-008,2026-10-14,Cotton,FLD-09,Seedling,Bermuda Grass (Cynodon dactylon),26,Medium,38.2,No treatment,19.1,0.98
+REC-422,2026-10-14,Maize,FLD-12,Vegetative,Bermuda Grass (Cynodon dactylon),6,Low,15.7,Manual weeding,3.3,0.9
+REC-218,2026-10-14,Sugarcane,FLD-10,Maturity,Barnyard Grass (Echinochloa crus-galli),40,High,64.0,No treatment,13.3,0.85
+REC-055,2026-10-15,Maize,FLD-08,Flowering,Broadleaf Weeds (Amaranthus spp.),24,Medium,35.7,No treatment,11.8,0.89
+REC-021,2026-10-15,Cotton,FLD-07,Maturity,Broadleaf Weeds (Amaranthus spp.),8,Low,15.9,Herbicide,5.4,0.86
+REC-032,2026-10-15,Maize,FLD-04,Seedling,Parthenium (Parthenium hysterophorus),39,High,63.2,No treatment,28.4,0.86
+REC-193,2026-10-17,Maize,FLD-13,Vegetative,False Daisy (Eclipta prostrata),12,Medium,25.6,Mechanical weeding,9.5,0.86
+REC-394,2026-10-18,Sugarcane,FLD-07,Maturity,Broadleaf Weeds (Amaranthus spp.),36,High,48.5,No treatment,13.1,0.89
+REC-419,2026-10-18,Sugarcane,FLD-10,Seedling,Barnyard Grass (Echinochloa crus-galli),12,Medium,17.4,Manual weeding,12.2,0.87
+REC-196,2026-10-19,Ragi (Finger millet),FLD-02,Vegetative,Bermuda Grass (Cynodon dactylon),34,High,45.9,No treatment,23.9,0.92
+REC-017,2026-10-19,Cotton,FLD-03,Flowering,Nutgrass (Cyperus rotundus),22,Medium,37.8,Manual weeding,11.5,0.94
+REC-223,2026-10-19,Ragi (Finger millet),FLD-13,Vegetative,Broadleaf Weeds (Amaranthus spp.),39,High,60.0,No treatment,28.1,0.92
+REC-367,2026-10-19,Cotton,FLD-04,Vegetative,Broadleaf Weeds (Amaranthus spp.),7,Low,15.2,Herbicide,7.8,0.91
+REC-311,2026-10-19,Rice (Paddy),FLD-01,Vegetative,Bermuda Grass (Cynodon dactylon),14,Medium,22.3,Mechanical weeding,8.5,0.84
+REC-003,2026-10-19,Rice (Paddy),FLD-02,Vegetative,Nutgrass (Cyperus rotundus),27,Medium,42.1,No treatment,17.6,0.87
+REC-052,2026-10-20,Ragi (Finger millet),FLD-15,Seedling,Barnyard Grass (Echinochloa crus-galli),5,Low,7.9,Mechanical weeding,4.8,0.92
+REC-206,2026-10-21,Rice (Paddy),FLD-13,Flowering,Nutgrass (Cyperus rotundus),11,Low,23.1,Manual weeding,9.9,0.87
+REC-185,2026-10-21,Ragi (Finger millet),FLD-01,Maturity,Parthenium (Parthenium hysterophorus),35,High,54.2,No treatment,14.9,0.94
+REC-251,2026-10-21,Rice (Paddy),FLD-03,Maturity,Bermuda Grass (Cynodon dactylon),30,High,47.3,Mechanical weeding,10.3,0.86
+REC-307,2026-10-22,Maize,FLD-13,Flowering,Parthenium (Parthenium hysterophorus),16,Medium,25.2,Mechanical weeding,8.5,0.88
+REC-079,2026-10-23,Cotton,FLD-11,Maturity,False Daisy (Eclipta prostrata),22,Medium,36.1,Manual weeding,9.9,0.89
+REC-117,2026-10-23,Ragi (Finger millet),FLD-15,Maturity,Nutgrass (Cyperus rotundus),16,Medium,24.9,Mechanical weeding,6.6,0.93
+REC-035,2026-10-24,Maize,FLD-05,Maturity,Nutgrass (Cyperus rotundus),9,Low,15.2,Manual weeding,4.5,0.83
+REC-167,2026-10-24,Ragi (Finger millet),FLD-14,Vegetative,False Daisy (Eclipta prostrata),10,Low,17.8,Manual weeding,6.4,0.97
+REC-329,2026-10-24,Rice (Paddy),FLD-01,Flowering,False Daisy (Eclipta prostrata),27,Medium,42.1,Manual weeding,14.2,0.82
+REC-243,2026-10-25,Rice (Paddy),FLD-14,Flowering,Broadleaf Weeds (Amaranthus spp.),17,Medium,22.7,Mechanical weeding,9.2,0.86
+REC-364,2026-10-25,Sugarcane,FLD-15,Flowering,Parthenium (Parthenium hysterophorus),35,High,59.1,No treatment,19.5,0.8

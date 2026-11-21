@@ -1,6 +1,8 @@
-path: D:/mca_demo/mca/weed_project_combined/FINAL_3064
-train: images/train
-val: images/val
-test: images/test
 names:
-  0: weed
+  0: crop
+  1: weed
+nc: 2
+path: D:\Thejas\WEED PROJECT\datasets\weed_detection
+test: test/images
+train: train/images
+val: valid/images
