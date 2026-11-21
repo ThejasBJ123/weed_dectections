@@ -73,7 +73,7 @@ sample_name = ""
 
 if image_source == "📤 Upload Image":
     st.markdown("##### Browse an image from your phone or computer")
-    st.caption("Tip: Select any image from `D:\\Thejas\\WEED PROJECT\\high_accuracy_test_images_200` for guaranteed > 85% accuracy.")
+    st.caption("Tip: Select any image from the `high_accuracy_test_images_200/` directory for guaranteed > 85% accuracy.")
     uploaded_file = st.file_uploader(
         "Upload Image (JPG, JPEG, PNG • Up to 200MB)",
         type=['jpg', 'jpeg', 'png'],

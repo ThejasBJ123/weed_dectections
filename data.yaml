@@ -2,7 +2,7 @@ names:
   0: crop
   1: weed
 nc: 2
-path: D:\Thejas\WEED PROJECT\datasets\weed_detection
+path: datasets/weed_detection
 test: test/images
 train: train/images
 val: valid/images
