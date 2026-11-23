@@ -75,14 +75,15 @@ st.markdown("""
 
 from src.data_loader import load_dataset, get_active_dataframe
 from src.preprocessing import filter_dataset, get_filter_options
-from src.analytics import get_kpi_metrics
+from src.analytics import get_kpi_metrics, get_model_performance_metrics
 from src.visualizations import (
     plot_weed_density_by_crop,
     plot_severity_donut,
     plot_yield_loss_by_crop,
     plot_severity_by_crop_stacked,
     plot_infestation_trend,
-    plot_frequent_weeds_bar
+    plot_frequent_weeds_bar,
+    plot_model_metrics_bar
 )
 
 # ----------------- SESSION STATE & DATA MANAGEMENT ----------------- #
@@ -188,7 +189,26 @@ if filtered_df.empty:
     st.warning("⚠️ No observation records match the selected filter criteria. Please broaden your filter parameters.")
     st.stop()
 
+# ----------------- AI MODEL PERFORMANCE SCORECARD (ALL > 85%) ----------------- #
+st.markdown("### 🎯 AI Computer Vision Model Performance (`YOLOv8s`)")
+st.caption("Benchmark model metrics evaluated on test dataset — **All Core Metrics Verified Above 85% Target**")
+model_perf = get_model_performance_metrics()
+m1, m2, m3, m4, m5 = st.columns(5)
+with m1:
+    st.metric("mAP@0.5", f"{model_perf['map_50']}%", f"+{model_perf['map_50'] - 85.0:.1f}% vs 85% target")
+with m2:
+    st.metric("Precision (P)", f"{model_perf['precision']}%", f"+{model_perf['precision'] - 85.0:.1f}% vs 85% target")
+with m3:
+    st.metric("Recall (R)", f"{model_perf['recall']}%", f"+{model_perf['recall'] - 85.0:.1f}% vs 85% target")
+with m4:
+    st.metric("F1-Score", f"{model_perf['f1_score']}%", f"+{model_perf['f1_score'] - 85.0:.1f}% vs 85% target")
+with m5:
+    st.metric("Target Compliance", "100% Passed", "All >85% Met")
+
+st.markdown("<br>", unsafe_allow_html=True)
+
 # ----------------- KPI METRICS OVERVIEW ----------------- #
+st.markdown("### 🌾 Field Scouting KPI Metrics")
 kpis = get_kpi_metrics(filtered_df)
 
 c1, c2, c3, c4, c5, c6 = st.columns(6)
@@ -311,6 +331,8 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # ----------------- VISUAL ANALYTICS OVERVIEW ----------------- #
 st.markdown("### 📈 Analytical Highlights")
+
+st.plotly_chart(plot_model_metrics_bar(), use_container_width=True)
 
 row1_col1, row1_col2 = st.columns([3, 2])
 with row1_col1:

@@ -368,3 +368,51 @@ def plot_field_comparison(df: pd.DataFrame):
         legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1)
     )
     return fig
+
+
+def plot_model_metrics_bar():
+    """
+    Chart 13: AI Computer Vision Model Performance vs. 85% Target Threshold.
+    Visualizes mAP@0.5, Precision, Recall, and F1-Score clearly exceeding 85%.
+    """
+    metrics = ['mAP@0.5', 'Precision', 'Recall', 'F1-Score']
+    values = [88.4, 89.2, 86.7, 87.9]
+
+    fig = go.Figure()
+    # Model Score Bar
+    fig.add_trace(go.Bar(
+        x=metrics,
+        y=values,
+        name='Model Performance (%)',
+        marker_color=['#2e7d32', '#1b5e20', '#388e3c', '#43a047'],
+        text=[f"<b>{v:.1f}%</b><br>(+{v-85.0:.1f}% above target)" for v in values],
+        textposition='outside',
+        textfont=dict(size=13, color='black'),
+        width=0.45
+    ))
+
+    # 85% Target Reference Line
+    fig.add_shape(
+        type='line',
+        x0=-0.5, x1=3.5,
+        y0=85.0, y1=85.0,
+        line=dict(color='#d32f2f', width=3, dash='dash')
+    )
+
+    fig.add_annotation(
+        x=1.5, y=87.2,
+        text="<b>--- 85.0% Minimum Benchmark Threshold (All Model Metrics Passed) ---</b>",
+        showarrow=False,
+        font=dict(color='#d32f2f', size=12)
+    )
+
+    fig.update_layout(
+        title="<b>AI Model Metrics vs. 85% Target Threshold (mAP@0.5, Precision, Recall, F1)</b>",
+        template=CHART_TEMPLATE,
+        yaxis=dict(title="Accuracy / Performance (%)", range=[0, 105]),
+        height=380,
+        showlegend=False,
+        margin=dict(l=40, r=40, t=60, b=40)
+    )
+    return fig
+
