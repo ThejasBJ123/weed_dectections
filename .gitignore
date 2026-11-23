@@ -13,6 +13,7 @@ ENV/
 
 # Streamlit
 !.streamlit/config.toml
+.streamlit/secrets.toml
 
 # Ultralytics cache and training runs
 .ultralytics/
